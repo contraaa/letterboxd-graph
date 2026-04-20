@@ -4,7 +4,7 @@
   "years": [
     2026
   ],
-  "generatedAt": "2026-04-20T09:14:32.346Z",
+  "generatedAt": "2026-04-20T11:38:07.991Z",
   "meta": {
     "weekStart": "sunday",
     "minYear": 2026,
@@ -16,8 +16,8 @@
     "maxCount": 1
   },
   "stats": {
-    "films": 13,
-    "daysActive": 13,
+    "films": 14,
+    "daysActive": 14,
     "streak": 2
   },
   "monthLabels": [
@@ -1409,10 +1409,17 @@
       "date": "2026-04-20",
       "week": 16,
       "weekday": 1,
-      "count": 0,
-      "ratingAvg": null,
-      "films": [],
-      "level": 0,
+      "count": 1,
+      "ratingAvg": 2,
+      "films": [
+        {
+          "title": "Idiocracy",
+          "year": "2006",
+          "rating": 2,
+          "url": "https://letterboxd.com/contra_/film/idiocracy/"
+        }
+      ],
+      "level": 1,
       "inRange": true,
       "url": "https://letterboxd.com/Contra_/diary/films/for/2026/04/20/"
     },
@@ -4404,9 +4411,30 @@
         }
       ],
       "url": "https://letterboxd.com/Contra_/diary/films/for/2026/04/13/"
+    },
+    {
+      "date": "2026-04-20",
+      "count": 1,
+      "ratingAvg": 2,
+      "films": [
+        {
+          "title": "Idiocracy",
+          "year": "2006",
+          "rating": 2,
+          "url": "https://letterboxd.com/contra_/film/idiocracy/"
+        }
+      ],
+      "url": "https://letterboxd.com/Contra_/diary/films/for/2026/04/20/"
     }
   ],
   "recent": [
+    {
+      "date": "2026-04-20",
+      "title": "Idiocracy",
+      "year": "2006",
+      "rating": 2,
+      "url": "https://letterboxd.com/contra_/film/idiocracy/"
+    },
     {
       "date": "2026-04-13",
       "title": "The Cranes Are Flying",
@@ -4469,13 +4497,6 @@
       "year": "1987",
       "rating": 4,
       "url": "https://letterboxd.com/contra_/film/city-on-fire/"
-    },
-    {
-      "date": "2026-01-23",
-      "title": "Marty Supreme",
-      "year": "2025",
-      "rating": 4,
-      "url": "https://letterboxd.com/contra_/film/marty-supreme/"
     }
   ]
 }
