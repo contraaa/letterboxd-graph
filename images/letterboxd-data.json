@@ -4,7 +4,7 @@
   "years": [
     2026
   ],
-  "generatedAt": "2026-04-21T08:58:48.014Z",
+  "generatedAt": "2026-04-21T10:26:17.806Z",
   "meta": {
     "weekStart": "sunday",
     "minYear": 2026,
@@ -16,8 +16,8 @@
     "maxCount": 1
   },
   "stats": {
-    "films": 14,
-    "daysActive": 14,
+    "films": 15,
+    "daysActive": 15,
     "streak": 2
   },
   "monthLabels": [
@@ -1427,10 +1427,17 @@
       "date": "2026-04-21",
       "week": 16,
       "weekday": 2,
-      "count": 0,
-      "ratingAvg": null,
-      "films": [],
-      "level": 0,
+      "count": 1,
+      "ratingAvg": 3,
+      "films": [
+        {
+          "title": "Heretic",
+          "year": "2024",
+          "rating": 3,
+          "url": "https://letterboxd.com/contra_/film/heretic-2024/"
+        }
+      ],
+      "level": 1,
       "inRange": true,
       "url": "https://letterboxd.com/Contra_/diary/films/for/2026/04/21/"
     },
@@ -4425,9 +4432,30 @@
         }
       ],
       "url": "https://letterboxd.com/Contra_/diary/films/for/2026/04/20/"
+    },
+    {
+      "date": "2026-04-21",
+      "count": 1,
+      "ratingAvg": 3,
+      "films": [
+        {
+          "title": "Heretic",
+          "year": "2024",
+          "rating": 3,
+          "url": "https://letterboxd.com/contra_/film/heretic-2024/"
+        }
+      ],
+      "url": "https://letterboxd.com/Contra_/diary/films/for/2026/04/21/"
     }
   ],
   "recent": [
+    {
+      "date": "2026-04-21",
+      "title": "Heretic",
+      "year": "2024",
+      "rating": 3,
+      "url": "https://letterboxd.com/contra_/film/heretic-2024/"
+    },
     {
       "date": "2026-04-20",
       "title": "Idiocracy",
@@ -4490,13 +4518,6 @@
       "year": "1960",
       "rating": 4.5,
       "url": "https://letterboxd.com/contra_/film/the-apartment/"
-    },
-    {
-      "date": "2026-03-02",
-      "title": "City on Fire",
-      "year": "1987",
-      "rating": 4,
-      "url": "https://letterboxd.com/contra_/film/city-on-fire/"
     }
   ]
 }
