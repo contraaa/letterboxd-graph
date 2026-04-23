@@ -4,7 +4,7 @@
   "years": [
     2026
   ],
-  "generatedAt": "2026-04-23T22:59:32.514Z",
+  "generatedAt": "2026-04-23T23:56:50.955Z",
   "meta": {
     "weekStart": "sunday",
     "minYear": 2026,
@@ -1456,17 +1456,6 @@
       "date": "2026-04-23",
       "week": 16,
       "weekday": 4,
-      "count": 0,
-      "ratingAvg": null,
-      "films": [],
-      "level": 0,
-      "inRange": true,
-      "url": "https://letterboxd.com/Contra_/diary/films/for/2026/04/23/"
-    },
-    {
-      "date": "2026-04-24",
-      "week": 16,
-      "weekday": 5,
       "count": 1,
       "ratingAvg": 4,
       "films": [
@@ -1478,6 +1467,17 @@
         }
       ],
       "level": 1,
+      "inRange": true,
+      "url": "https://letterboxd.com/Contra_/diary/films/for/2026/04/23/"
+    },
+    {
+      "date": "2026-04-24",
+      "week": 16,
+      "weekday": 5,
+      "count": 0,
+      "ratingAvg": null,
+      "films": [],
+      "level": 0,
       "inRange": true,
       "url": "https://letterboxd.com/Contra_/diary/films/for/2026/04/24/"
     },
@@ -4455,7 +4455,7 @@
       "url": "https://letterboxd.com/Contra_/diary/films/for/2026/04/21/"
     },
     {
-      "date": "2026-04-24",
+      "date": "2026-04-23",
       "count": 1,
       "ratingAvg": 4,
       "films": [
@@ -4466,12 +4466,12 @@
           "url": "https://letterboxd.com/contra_/film/the-quiet-earth/"
         }
       ],
-      "url": "https://letterboxd.com/Contra_/diary/films/for/2026/04/24/"
+      "url": "https://letterboxd.com/Contra_/diary/films/for/2026/04/23/"
     }
   ],
   "recent": [
     {
-      "date": "2026-04-24",
+      "date": "2026-04-23",
       "title": "The Quiet Earth",
       "year": "1985",
       "rating": 4,
