@@ -4,7 +4,7 @@
   "years": [
     2026
   ],
-  "generatedAt": "2026-04-23T21:55:59.868Z",
+  "generatedAt": "2026-04-23T22:59:32.514Z",
   "meta": {
     "weekStart": "sunday",
     "minYear": 2026,
@@ -16,8 +16,8 @@
     "maxCount": 1
   },
   "stats": {
-    "films": 15,
-    "daysActive": 15,
+    "films": 16,
+    "daysActive": 16,
     "streak": 2
   },
   "monthLabels": [
@@ -1467,10 +1467,17 @@
       "date": "2026-04-24",
       "week": 16,
       "weekday": 5,
-      "count": 0,
-      "ratingAvg": null,
-      "films": [],
-      "level": 0,
+      "count": 1,
+      "ratingAvg": 4,
+      "films": [
+        {
+          "title": "The Quiet Earth",
+          "year": "1985",
+          "rating": 4,
+          "url": "https://letterboxd.com/contra_/film/the-quiet-earth/"
+        }
+      ],
+      "level": 1,
       "inRange": true,
       "url": "https://letterboxd.com/Contra_/diary/films/for/2026/04/24/"
     },
@@ -4446,9 +4453,30 @@
         }
       ],
       "url": "https://letterboxd.com/Contra_/diary/films/for/2026/04/21/"
+    },
+    {
+      "date": "2026-04-24",
+      "count": 1,
+      "ratingAvg": 4,
+      "films": [
+        {
+          "title": "The Quiet Earth",
+          "year": "1985",
+          "rating": 4,
+          "url": "https://letterboxd.com/contra_/film/the-quiet-earth/"
+        }
+      ],
+      "url": "https://letterboxd.com/Contra_/diary/films/for/2026/04/24/"
     }
   ],
   "recent": [
+    {
+      "date": "2026-04-24",
+      "title": "The Quiet Earth",
+      "year": "1985",
+      "rating": 4,
+      "url": "https://letterboxd.com/contra_/film/the-quiet-earth/"
+    },
     {
       "date": "2026-04-21",
       "title": "Heretic",
@@ -4511,13 +4539,6 @@
       "year": "1975",
       "rating": 2,
       "url": "https://letterboxd.com/contra_/film/picnic-at-hanging-rock/"
-    },
-    {
-      "date": "2026-03-09",
-      "title": "The Apartment",
-      "year": "1960",
-      "rating": 4.5,
-      "url": "https://letterboxd.com/contra_/film/the-apartment/"
     }
   ]
 }
