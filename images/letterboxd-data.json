@@ -4,7 +4,7 @@
   "years": [
     2026
   ],
-  "generatedAt": "2026-04-26T10:56:20.545Z",
+  "generatedAt": "2026-04-26T11:49:46.281Z",
   "meta": {
     "weekStart": "sunday",
     "minYear": 2026,
@@ -16,8 +16,8 @@
     "maxCount": 1
   },
   "stats": {
-    "films": 16,
-    "daysActive": 16,
+    "films": 17,
+    "daysActive": 17,
     "streak": 2
   },
   "monthLabels": [
@@ -1496,10 +1496,17 @@
       "date": "2026-04-26",
       "week": 17,
       "weekday": 0,
-      "count": 0,
-      "ratingAvg": null,
-      "films": [],
-      "level": 0,
+      "count": 1,
+      "ratingAvg": 4.5,
+      "films": [
+        {
+          "title": "The Weed Eaters",
+          "year": "2025",
+          "rating": 4.5,
+          "url": "https://letterboxd.com/contra_/film/the-weed-eaters/"
+        }
+      ],
+      "level": 1,
       "inRange": true,
       "url": "https://letterboxd.com/Contra_/diary/films/for/2026/04/26/"
     },
@@ -4467,9 +4474,30 @@
         }
       ],
       "url": "https://letterboxd.com/Contra_/diary/films/for/2026/04/23/"
+    },
+    {
+      "date": "2026-04-26",
+      "count": 1,
+      "ratingAvg": 4.5,
+      "films": [
+        {
+          "title": "The Weed Eaters",
+          "year": "2025",
+          "rating": 4.5,
+          "url": "https://letterboxd.com/contra_/film/the-weed-eaters/"
+        }
+      ],
+      "url": "https://letterboxd.com/Contra_/diary/films/for/2026/04/26/"
     }
   ],
   "recent": [
+    {
+      "date": "2026-04-26",
+      "title": "The Weed Eaters",
+      "year": "2025",
+      "rating": 4.5,
+      "url": "https://letterboxd.com/contra_/film/the-weed-eaters/"
+    },
     {
       "date": "2026-04-23",
       "title": "The Quiet Earth",
@@ -4532,13 +4560,6 @@
       "year": "2001",
       "rating": 3.5,
       "url": "https://letterboxd.com/contra_/film/hotere/"
-    },
-    {
-      "date": "2026-03-15",
-      "title": "Picnic at Hanging Rock",
-      "year": "1975",
-      "rating": 2,
-      "url": "https://letterboxd.com/contra_/film/picnic-at-hanging-rock/"
     }
   ]
 }
