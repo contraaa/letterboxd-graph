@@ -4,7 +4,7 @@
   "years": [
     2026
   ],
-  "generatedAt": "2026-04-28T09:31:58.850Z",
+  "generatedAt": "2026-04-28T11:56:34.938Z",
   "meta": {
     "weekStart": "sunday",
     "minYear": 2026,
@@ -16,8 +16,8 @@
     "maxCount": 1
   },
   "stats": {
-    "films": 17,
-    "daysActive": 17,
+    "films": 18,
+    "daysActive": 18,
     "streak": 2
   },
   "monthLabels": [
@@ -1525,10 +1525,17 @@
       "date": "2026-04-28",
       "week": 17,
       "weekday": 2,
-      "count": 0,
-      "ratingAvg": null,
-      "films": [],
-      "level": 0,
+      "count": 1,
+      "ratingAvg": 4.5,
+      "films": [
+        {
+          "title": "Trainspotting",
+          "year": "1996",
+          "rating": 4.5,
+          "url": "https://letterboxd.com/contra_/film/trainspotting/"
+        }
+      ],
+      "level": 1,
       "inRange": true,
       "url": "https://letterboxd.com/Contra_/diary/films/for/2026/04/28/"
     },
@@ -4488,9 +4495,30 @@
         }
       ],
       "url": "https://letterboxd.com/Contra_/diary/films/for/2026/04/26/"
+    },
+    {
+      "date": "2026-04-28",
+      "count": 1,
+      "ratingAvg": 4.5,
+      "films": [
+        {
+          "title": "Trainspotting",
+          "year": "1996",
+          "rating": 4.5,
+          "url": "https://letterboxd.com/contra_/film/trainspotting/"
+        }
+      ],
+      "url": "https://letterboxd.com/Contra_/diary/films/for/2026/04/28/"
     }
   ],
   "recent": [
+    {
+      "date": "2026-04-28",
+      "title": "Trainspotting",
+      "year": "1996",
+      "rating": 4.5,
+      "url": "https://letterboxd.com/contra_/film/trainspotting/"
+    },
     {
       "date": "2026-04-26",
       "title": "The Weed Eaters",
@@ -4553,13 +4581,6 @@
       "year": "2009",
       "rating": 3.5,
       "url": "https://letterboxd.com/contra_/film/dogtooth/"
-    },
-    {
-      "date": "2026-03-16",
-      "title": "Hotere",
-      "year": "2001",
-      "rating": 3.5,
-      "url": "https://letterboxd.com/contra_/film/hotere/"
     }
   ]
 }
