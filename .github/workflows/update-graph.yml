@@ -1,128 +1,89 @@
 name: Update Letterboxd Graph + JSON Export
 
-# ╔════════════════════════════════════════════════════════════════╗
-# ║  CONFIGURATION - Edit these values for your Letterboxd profile ║
-# ╚════════════════════════════════════════════════════════════════╝
 env:
-  LETTERBOXD_USERNAME: "Contra_"  # Your Letterboxd username
-  YEARS: ""                            # Years to generate (e.g. "2026,2025" or leave empty for current)
-  EXPORT_PNG: "false"                  # Set to "true" to also generate PNG files
-  WEEK_START: "sunday"                 # "sunday" or "monday"
-  GRADIENT: "true"                     # "true" for colored name, "false" for white
+  LETTERBOXD_USERNAME: "Contra_"
+  YEARS: ""                  # e.g. "2026,2025" or empty for current year
+  EXPORT_PNG: "false"         # keep false
+  WEEK_START: "sunday"
+  GRADIENT: "true"
 
 on:
-  # Daily at midnight UTC (main only)
+  # Hourly at :07 UTC (change to "0 0 * * *" if you want daily midnight UTC)
   schedule:
     - cron: "7 * * * *"
-  
-  # On push to main or dev
-  push:
-    branches:
-      - main
-      - dev
-    paths-ignore:
-      - 'README.md'
-      - 'LICENSE'
-      - '.gitignore'
-  
-  # Manual trigger
   workflow_dispatch:
 
 permissions:
   contents: write
 
+# Prevent overlapping runs from fighting over commits/pushes
+concurrency:
+  group: letterboxd-graph-${{ github.ref }}
+  cancel-in-progress: false
+
 jobs:
   update-graph:
     runs-on: ubuntu-latest
-    
+
     steps:
       - name: Checkout repository
         uses: actions/checkout@v4
-      
+        with:
+          fetch-depth: 0
+
       - name: Setup Node.js
         uses: actions/setup-node@v4
         with:
-          node-version: '20'
-          cache: 'npm'
-      
-      - name: Install Puppeteer dependencies
-        run: |
-          sudo apt-get update
-          sudo apt-get install -y \
-            libnss3 \
-            libnspr4 \
-            libatk1.0-0 \
-            libatk-bridge2.0-0 \
-            libcups2t64 \
-            libdrm2 \
-            libxkbcommon0 \
-            libxcomposite1 \
-            libxdamage1 \
-            libxfixes3 \
-            libxrandr2 \
-            libgbm1 \
-            libasound2t64 \
-            libpango-1.0-0 \
-            libcairo2
-      
+          node-version: "20"
+          cache: "npm"
+
       - name: Install dependencies
-        run: |
-          # Remove lockfile to get fresh platform-specific binaries
-          rm -f package-lock.json
-          npm install
+        run: npm ci
 
       - name: Install curl_cffi fallback
         run: |
           python3 -m pip install --upgrade pip
           python3 -m pip install curl_cffi
 
-
-      - name: Replace Inter fonts with DejaVu Sans (workaround for opentype.js GSUB errors)
+      - name: Generate Graph (best-effort; require JSON)
         run: |
-          sudo apt-get update
-          sudo apt-get install -y fonts-dejavu-core
-          FONT_SRC="/usr/share/fonts/truetype/dejavu/DejaVuSans.ttf"
-
-          # Overwrite the font files the generator expects
-          cp "$FONT_SRC" fonts/Inter-Regular.ttf
-          cp "$FONT_SRC" fonts/Inter-Medium.ttf
-          cp "$FONT_SRC" fonts/Inter-SemiBold.ttf
-          cp "$FONT_SRC" fonts/Inter-Bold.ttf
-      
-      - name: Generate Graph
-        run: |
-          # Build command based on configuration
           CMD="node src/cli.js ${{ env.LETTERBOXD_USERNAME }} -o images/github-letterboxd"
-          
+
           if [ -n "${{ env.YEARS }}" ]; then CMD="$CMD -y ${{ env.YEARS }}"; fi
           if [ "${{ env.WEEK_START }}" = "monday" ]; then CMD="$CMD -w monday"; fi
           if [ "${{ env.GRADIENT }}" = "false" ]; then CMD="$CMD -g false"; fi
           if [ "${{ env.EXPORT_PNG }}" = "true" ]; then CMD="$CMD -p"; fi
-          
-          echo "Running: $CMD"
-          eval $CMD
 
-      - name: Commit and push changes
+          echo "Running: $CMD"
+
+          # Don't fail immediately — opentype.js sometimes throws unsupported GSUB errors during SVG rendering.
+          set +e
+          eval $CMD
+          STATUS=$?
+          set -e
+
+          # JSON export is the thing Glance needs (images/letterboxd-data.json). [1](https://opentype.js.org/)
+          if [ ! -f images/letterboxd-data.json ]; then
+            echo "❌ images/letterboxd-data.json was not generated; failing."
+            exit $STATUS
+          fi
+
+          if [ $STATUS -ne 0 ]; then
+            echo "⚠️ SVG generation failed, but JSON exists — continuing so Glance can update."
+          fi
+
+      - name: Commit and push changes (JSON only)
         run: |
           git config --global user.name 'github-actions[bot]'
           git config --global user.email 'github-actions[bot]@users.noreply.github.com'
-          
-          # Add all generated files (dark/light SVG + letterboxd-data.json)
-          git add images/
-          
-          # Check if there are changes
+
+          # Only commit the JSON that Glance consumes.
+          git add images/letterboxd-data.json
+
           if git diff --staged --quiet; then
-            echo "No changes to commit"
-          else
-            BRANCH="${{ github.ref_name }}"
-            TIMESTAMP=$(date -u +"%Y-%m-%d %H:%M UTC")
-            git commit -m "Update Letterboxd graph [$BRANCH] - $TIMESTAMP"
-            
-            # Push with one retry in case the branch moved meanwhile
-            if ! git push origin "HEAD:$BRANCH"; then
-              echo "Initial push failed, retrying after rebase..."
-              git fetch origin "$BRANCH"
-              git rebase "origin/$BRANCH"
-              git push origin "HEAD:$BRANCH"
-            fi
+            echo "No JSON changes to commit"
+            exit 0
           fi
+
+          git commit -m "Update Letterboxd JSON export"
+          git push
