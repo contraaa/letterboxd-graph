@@ -75,6 +75,19 @@ jobs:
         run: |
           python3 -m pip install --upgrade pip
           python3 -m pip install curl_cffi
+
+
+      - name: Replace Inter fonts with DejaVu Sans (workaround for opentype.js GSUB errors)
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y fonts-dejavu-core
+          FONT_SRC="/usr/share/fonts/truetype/dejavu/DejaVuSans.ttf"
+
+          # Overwrite the font files the generator expects
+          cp "$FONT_SRC" fonts/Inter-Regular.ttf
+          cp "$FONT_SRC" fonts/Inter-Medium.ttf
+          cp "$FONT_SRC" fonts/Inter-SemiBold.ttf
+          cp "$FONT_SRC" fonts/Inter-Bold.ttf
       
       - name: Generate Graph
         run: |
