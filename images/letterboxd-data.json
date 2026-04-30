@@ -4,7 +4,7 @@
   "years": [
     2026
   ],
-  "generatedAt": "2026-04-30T18:18:45.087Z",
+  "generatedAt": "2026-04-30T20:16:17.326Z",
   "meta": {
     "weekStart": "sunday",
     "minYear": 2026,
@@ -16,8 +16,8 @@
     "maxCount": 1
   },
   "stats": {
-    "films": 18,
-    "daysActive": 18,
+    "films": 19,
+    "daysActive": 19,
     "streak": 2
   },
   "monthLabels": [
@@ -1565,10 +1565,17 @@
       "date": "2026-05-01",
       "week": 17,
       "weekday": 5,
-      "count": 0,
-      "ratingAvg": null,
-      "films": [],
-      "level": 0,
+      "count": 1,
+      "ratingAvg": 3,
+      "films": [
+        {
+          "title": "Heavenly Creatures",
+          "year": "1994",
+          "rating": 3,
+          "url": "https://letterboxd.com/contra_/film/heavenly-creatures/"
+        }
+      ],
+      "level": 1,
       "inRange": true,
       "url": "https://letterboxd.com/Contra_/diary/films/for/2026/05/01/"
     },
@@ -4509,9 +4516,30 @@
         }
       ],
       "url": "https://letterboxd.com/Contra_/diary/films/for/2026/04/28/"
+    },
+    {
+      "date": "2026-05-01",
+      "count": 1,
+      "ratingAvg": 3,
+      "films": [
+        {
+          "title": "Heavenly Creatures",
+          "year": "1994",
+          "rating": 3,
+          "url": "https://letterboxd.com/contra_/film/heavenly-creatures/"
+        }
+      ],
+      "url": "https://letterboxd.com/Contra_/diary/films/for/2026/05/01/"
     }
   ],
   "recent": [
+    {
+      "date": "2026-05-01",
+      "title": "Heavenly Creatures",
+      "year": "1994",
+      "rating": 3,
+      "url": "https://letterboxd.com/contra_/film/heavenly-creatures/"
+    },
     {
       "date": "2026-04-28",
       "title": "Trainspotting",
@@ -4574,13 +4602,6 @@
       "year": "1964",
       "rating": 3.5,
       "url": "https://letterboxd.com/contra_/film/kwaidan/"
-    },
-    {
-      "date": "2026-03-23",
-      "title": "Dogtooth",
-      "year": "2009",
-      "rating": 3.5,
-      "url": "https://letterboxd.com/contra_/film/dogtooth/"
     }
   ]
 }
