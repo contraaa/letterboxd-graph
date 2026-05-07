@@ -4,7 +4,7 @@
   "years": [
     2026
   ],
-  "generatedAt": "2026-05-07T18:52:38.565Z",
+  "generatedAt": "2026-05-07T20:22:02.322Z",
   "meta": {
     "weekStart": "sunday",
     "minYear": 2026,
@@ -1497,12 +1497,12 @@
       "week": 17,
       "weekday": 0,
       "count": 1,
-      "ratingAvg": 4.5,
+      "ratingAvg": 4,
       "films": [
         {
           "title": "The Weed Eaters",
           "year": "2025",
-          "rating": 4.5,
+          "rating": 4,
           "url": "https://letterboxd.com/contra_/film/the-weed-eaters/"
         }
       ],
@@ -1566,12 +1566,12 @@
       "week": 17,
       "weekday": 5,
       "count": 1,
-      "ratingAvg": 3,
+      "ratingAvg": 2.5,
       "films": [
         {
           "title": "Heavenly Creatures",
           "year": "1994",
-          "rating": 3,
+          "rating": 2.5,
           "url": "https://letterboxd.com/contra_/film/heavenly-creatures/"
         }
       ],
@@ -4499,12 +4499,12 @@
     {
       "date": "2026-04-26",
       "count": 1,
-      "ratingAvg": 4.5,
+      "ratingAvg": 4,
       "films": [
         {
           "title": "The Weed Eaters",
           "year": "2025",
-          "rating": 4.5,
+          "rating": 4,
           "url": "https://letterboxd.com/contra_/film/the-weed-eaters/"
         }
       ],
@@ -4527,12 +4527,12 @@
     {
       "date": "2026-05-01",
       "count": 1,
-      "ratingAvg": 3,
+      "ratingAvg": 2.5,
       "films": [
         {
           "title": "Heavenly Creatures",
           "year": "1994",
-          "rating": 3,
+          "rating": 2.5,
           "url": "https://letterboxd.com/contra_/film/heavenly-creatures/"
         }
       ],
@@ -4565,7 +4565,7 @@
       "date": "2026-05-01",
       "title": "Heavenly Creatures",
       "year": "1994",
-      "rating": 3,
+      "rating": 2.5,
       "url": "https://letterboxd.com/contra_/film/heavenly-creatures/"
     },
     {
@@ -4579,7 +4579,7 @@
       "date": "2026-04-26",
       "title": "The Weed Eaters",
       "year": "2025",
-      "rating": 4.5,
+      "rating": 4,
       "url": "https://letterboxd.com/contra_/film/the-weed-eaters/"
     },
     {
