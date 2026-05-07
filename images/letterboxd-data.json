@@ -4,7 +4,7 @@
   "years": [
     2026
   ],
-  "generatedAt": "2026-05-07T09:42:45.785Z",
+  "generatedAt": "2026-05-07T11:58:22.234Z",
   "meta": {
     "weekStart": "sunday",
     "minYear": 2026,
@@ -16,8 +16,8 @@
     "maxCount": 1
   },
   "stats": {
-    "films": 19,
-    "daysActive": 19,
+    "films": 20,
+    "daysActive": 20,
     "streak": 2
   },
   "monthLabels": [
@@ -1638,10 +1638,17 @@
       "date": "2026-05-07",
       "week": 18,
       "weekday": 4,
-      "count": 0,
-      "ratingAvg": null,
-      "films": [],
-      "level": 0,
+      "count": 1,
+      "ratingAvg": 4.5,
+      "films": [
+        {
+          "title": "Being John Malkovich",
+          "year": "1999",
+          "rating": 4.5,
+          "url": "https://letterboxd.com/contra_/film/being-john-malkovich/"
+        }
+      ],
+      "level": 1,
       "inRange": true,
       "url": "https://letterboxd.com/Contra_/diary/films/for/2026/05/07/"
     },
@@ -4530,9 +4537,30 @@
         }
       ],
       "url": "https://letterboxd.com/Contra_/diary/films/for/2026/05/01/"
+    },
+    {
+      "date": "2026-05-07",
+      "count": 1,
+      "ratingAvg": 4.5,
+      "films": [
+        {
+          "title": "Being John Malkovich",
+          "year": "1999",
+          "rating": 4.5,
+          "url": "https://letterboxd.com/contra_/film/being-john-malkovich/"
+        }
+      ],
+      "url": "https://letterboxd.com/Contra_/diary/films/for/2026/05/07/"
     }
   ],
   "recent": [
+    {
+      "date": "2026-05-07",
+      "title": "Being John Malkovich",
+      "year": "1999",
+      "rating": 4.5,
+      "url": "https://letterboxd.com/contra_/film/being-john-malkovich/"
+    },
     {
       "date": "2026-05-01",
       "title": "Heavenly Creatures",
@@ -4595,13 +4623,6 @@
       "year": "2025",
       "rating": 3,
       "url": "https://letterboxd.com/contra_/film/nirvanna-the-band-the-show-the-movie/"
-    },
-    {
-      "date": "2026-03-30",
-      "title": "Kwaidan",
-      "year": "1964",
-      "rating": 3.5,
-      "url": "https://letterboxd.com/contra_/film/kwaidan/"
     }
   ]
 }
