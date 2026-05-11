@@ -4,7 +4,7 @@
   "years": [
     2026
   ],
-  "generatedAt": "2026-05-11T00:01:48.546Z",
+  "generatedAt": "2026-05-11T04:17:28.702Z",
   "meta": {
     "weekStart": "sunday",
     "minYear": 2026,
@@ -16,8 +16,8 @@
     "maxCount": 1
   },
   "stats": {
-    "films": 20,
-    "daysActive": 20,
+    "films": 21,
+    "daysActive": 21,
     "streak": 2
   },
   "monthLabels": [
@@ -1678,10 +1678,17 @@
       "date": "2026-05-10",
       "week": 19,
       "weekday": 0,
-      "count": 0,
-      "ratingAvg": null,
-      "films": [],
-      "level": 0,
+      "count": 1,
+      "ratingAvg": 4,
+      "films": [
+        {
+          "title": "Adaptation.",
+          "year": "2002",
+          "rating": 4,
+          "url": "https://letterboxd.com/contra_/film/adaptation/"
+        }
+      ],
+      "level": 1,
       "inRange": true,
       "url": "https://letterboxd.com/Contra_/diary/films/for/2026/05/10/"
     },
@@ -4551,9 +4558,30 @@
         }
       ],
       "url": "https://letterboxd.com/Contra_/diary/films/for/2026/05/07/"
+    },
+    {
+      "date": "2026-05-10",
+      "count": 1,
+      "ratingAvg": 4,
+      "films": [
+        {
+          "title": "Adaptation.",
+          "year": "2002",
+          "rating": 4,
+          "url": "https://letterboxd.com/contra_/film/adaptation/"
+        }
+      ],
+      "url": "https://letterboxd.com/Contra_/diary/films/for/2026/05/10/"
     }
   ],
   "recent": [
+    {
+      "date": "2026-05-10",
+      "title": "Adaptation.",
+      "year": "2002",
+      "rating": 4,
+      "url": "https://letterboxd.com/contra_/film/adaptation/"
+    },
     {
       "date": "2026-05-07",
       "title": "Being John Malkovich",
@@ -4616,13 +4644,6 @@
       "year": "1988",
       "rating": 4,
       "url": "https://letterboxd.com/contra_/film/the-naked-gun-from-the-files-of-police-squad/"
-    },
-    {
-      "date": "2026-04-05",
-      "title": "Nirvanna the Band the Show the Movie",
-      "year": "2025",
-      "rating": 3,
-      "url": "https://letterboxd.com/contra_/film/nirvanna-the-band-the-show-the-movie/"
     }
   ]
 }
