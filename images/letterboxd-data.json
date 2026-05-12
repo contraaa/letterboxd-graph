@@ -4,7 +4,7 @@
   "years": [
     2026
   ],
-  "generatedAt": "2026-05-12T00:06:30.845Z",
+  "generatedAt": "2026-05-12T04:02:22.902Z",
   "meta": {
     "weekStart": "sunday",
     "minYear": 2026,
@@ -16,8 +16,8 @@
     "maxCount": 1
   },
   "stats": {
-    "films": 21,
-    "daysActive": 21,
+    "films": 22,
+    "daysActive": 22,
     "streak": 2
   },
   "monthLabels": [
@@ -1526,12 +1526,12 @@
       "week": 17,
       "weekday": 2,
       "count": 1,
-      "ratingAvg": 4.5,
+      "ratingAvg": 5,
       "films": [
         {
           "title": "Trainspotting",
           "year": "1996",
-          "rating": 4.5,
+          "rating": 5,
           "url": "https://letterboxd.com/contra_/film/trainspotting/"
         }
       ],
@@ -1696,10 +1696,17 @@
       "date": "2026-05-11",
       "week": 19,
       "weekday": 1,
-      "count": 0,
-      "ratingAvg": null,
-      "films": [],
-      "level": 0,
+      "count": 1,
+      "ratingAvg": 4,
+      "films": [
+        {
+          "title": "Joy House",
+          "year": "1964",
+          "rating": 4,
+          "url": "https://letterboxd.com/contra_/film/joy-house/"
+        }
+      ],
+      "level": 1,
       "inRange": true,
       "url": "https://letterboxd.com/Contra_/diary/films/for/2026/05/11/"
     },
@@ -4520,12 +4527,12 @@
     {
       "date": "2026-04-28",
       "count": 1,
-      "ratingAvg": 4.5,
+      "ratingAvg": 5,
       "films": [
         {
           "title": "Trainspotting",
           "year": "1996",
-          "rating": 4.5,
+          "rating": 5,
           "url": "https://letterboxd.com/contra_/film/trainspotting/"
         }
       ],
@@ -4572,9 +4579,30 @@
         }
       ],
       "url": "https://letterboxd.com/Contra_/diary/films/for/2026/05/10/"
+    },
+    {
+      "date": "2026-05-11",
+      "count": 1,
+      "ratingAvg": 4,
+      "films": [
+        {
+          "title": "Joy House",
+          "year": "1964",
+          "rating": 4,
+          "url": "https://letterboxd.com/contra_/film/joy-house/"
+        }
+      ],
+      "url": "https://letterboxd.com/Contra_/diary/films/for/2026/05/11/"
     }
   ],
   "recent": [
+    {
+      "date": "2026-05-11",
+      "title": "Joy House",
+      "year": "1964",
+      "rating": 4,
+      "url": "https://letterboxd.com/contra_/film/joy-house/"
+    },
     {
       "date": "2026-05-10",
       "title": "Adaptation.",
@@ -4600,7 +4628,7 @@
       "date": "2026-04-28",
       "title": "Trainspotting",
       "year": "1996",
-      "rating": 4.5,
+      "rating": 5,
       "url": "https://letterboxd.com/contra_/film/trainspotting/"
     },
     {
@@ -4637,13 +4665,6 @@
       "year": "1957",
       "rating": 4.5,
       "url": "https://letterboxd.com/contra_/film/the-cranes-are-flying/"
-    },
-    {
-      "date": "2026-04-12",
-      "title": "The Naked Gun: From the Files of Police Squad!",
-      "year": "1988",
-      "rating": 4,
-      "url": "https://letterboxd.com/contra_/film/the-naked-gun-from-the-files-of-police-squad/"
     }
   ]
 }
