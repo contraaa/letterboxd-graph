@@ -4,7 +4,7 @@
   "years": [
     2026
   ],
-  "generatedAt": "2026-05-17T23:04:21.642Z",
+  "generatedAt": "2026-05-18T00:06:13.796Z",
   "meta": {
     "weekStart": "sunday",
     "minYear": 2026,
@@ -16,8 +16,8 @@
     "maxCount": 1
   },
   "stats": {
-    "films": 22,
-    "daysActive": 22,
+    "films": 23,
+    "daysActive": 23,
     "streak": 2
   },
   "monthLabels": [
@@ -1769,10 +1769,17 @@
       "date": "2026-05-17",
       "week": 20,
       "weekday": 0,
-      "count": 0,
-      "ratingAvg": null,
-      "films": [],
-      "level": 0,
+      "count": 1,
+      "ratingAvg": 4,
+      "films": [
+        {
+          "title": "Heat",
+          "year": "1995",
+          "rating": 4,
+          "url": "https://letterboxd.com/contra_/film/heat-1995/"
+        }
+      ],
+      "level": 1,
       "inRange": true,
       "url": "https://letterboxd.com/Contra_/diary/films/for/2026/05/17/"
     },
@@ -4593,9 +4600,30 @@
         }
       ],
       "url": "https://letterboxd.com/Contra_/diary/films/for/2026/05/11/"
+    },
+    {
+      "date": "2026-05-17",
+      "count": 1,
+      "ratingAvg": 4,
+      "films": [
+        {
+          "title": "Heat",
+          "year": "1995",
+          "rating": 4,
+          "url": "https://letterboxd.com/contra_/film/heat-1995/"
+        }
+      ],
+      "url": "https://letterboxd.com/Contra_/diary/films/for/2026/05/17/"
     }
   ],
   "recent": [
+    {
+      "date": "2026-05-17",
+      "title": "Heat",
+      "year": "1995",
+      "rating": 4,
+      "url": "https://letterboxd.com/contra_/film/heat-1995/"
+    },
     {
       "date": "2026-05-11",
       "title": "Joy House",
@@ -4658,13 +4686,6 @@
       "year": "2006",
       "rating": 2,
       "url": "https://letterboxd.com/contra_/film/idiocracy/"
-    },
-    {
-      "date": "2026-04-13",
-      "title": "The Cranes Are Flying",
-      "year": "1957",
-      "rating": 4.5,
-      "url": "https://letterboxd.com/contra_/film/the-cranes-are-flying/"
     }
   ]
 }
