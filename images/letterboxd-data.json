@@ -4,7 +4,7 @@
   "years": [
     2026
   ],
-  "generatedAt": "2026-05-18T20:41:59.330Z",
+  "generatedAt": "2026-05-18T22:08:59.998Z",
   "meta": {
     "weekStart": "sunday",
     "minYear": 2026,
@@ -16,8 +16,8 @@
     "maxCount": 1
   },
   "stats": {
-    "films": 23,
-    "daysActive": 23,
+    "films": 24,
+    "daysActive": 24,
     "streak": 2
   },
   "monthLabels": [
@@ -1770,12 +1770,12 @@
       "week": 20,
       "weekday": 0,
       "count": 1,
-      "ratingAvg": 4,
+      "ratingAvg": 3.5,
       "films": [
         {
           "title": "Heat",
           "year": "1995",
-          "rating": 4,
+          "rating": 3.5,
           "url": "https://letterboxd.com/contra_/film/heat-1995/"
         }
       ],
@@ -1787,10 +1787,17 @@
       "date": "2026-05-18",
       "week": 20,
       "weekday": 1,
-      "count": 0,
-      "ratingAvg": null,
-      "films": [],
-      "level": 0,
+      "count": 1,
+      "ratingAvg": 3.5,
+      "films": [
+        {
+          "title": "Monster",
+          "year": "2023",
+          "rating": 3.5,
+          "url": "https://letterboxd.com/contra_/film/monster-2023/"
+        }
+      ],
+      "level": 1,
       "inRange": true,
       "url": "https://letterboxd.com/Contra_/diary/films/for/2026/05/18/"
     },
@@ -4604,24 +4611,45 @@
     {
       "date": "2026-05-17",
       "count": 1,
-      "ratingAvg": 4,
+      "ratingAvg": 3.5,
       "films": [
         {
           "title": "Heat",
           "year": "1995",
-          "rating": 4,
+          "rating": 3.5,
           "url": "https://letterboxd.com/contra_/film/heat-1995/"
         }
       ],
       "url": "https://letterboxd.com/Contra_/diary/films/for/2026/05/17/"
+    },
+    {
+      "date": "2026-05-18",
+      "count": 1,
+      "ratingAvg": 3.5,
+      "films": [
+        {
+          "title": "Monster",
+          "year": "2023",
+          "rating": 3.5,
+          "url": "https://letterboxd.com/contra_/film/monster-2023/"
+        }
+      ],
+      "url": "https://letterboxd.com/Contra_/diary/films/for/2026/05/18/"
     }
   ],
   "recent": [
     {
+      "date": "2026-05-18",
+      "title": "Monster",
+      "year": "2023",
+      "rating": 3.5,
+      "url": "https://letterboxd.com/contra_/film/monster-2023/"
+    },
+    {
       "date": "2026-05-17",
       "title": "Heat",
       "year": "1995",
-      "rating": 4,
+      "rating": 3.5,
       "url": "https://letterboxd.com/contra_/film/heat-1995/"
     },
     {
@@ -4679,13 +4707,6 @@
       "year": "2024",
       "rating": 3,
       "url": "https://letterboxd.com/contra_/film/heretic-2024/"
-    },
-    {
-      "date": "2026-04-20",
-      "title": "Idiocracy",
-      "year": "2006",
-      "rating": 2,
-      "url": "https://letterboxd.com/contra_/film/idiocracy/"
     }
   ]
 }
