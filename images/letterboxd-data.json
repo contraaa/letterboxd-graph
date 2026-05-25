@@ -4,7 +4,7 @@
   "years": [
     2026
   ],
-  "generatedAt": "2026-05-25T21:20:40.270Z",
+  "generatedAt": "2026-05-25T23:17:08.964Z",
   "meta": {
     "weekStart": "sunday",
     "minYear": 2026,
@@ -16,8 +16,8 @@
     "maxCount": 1
   },
   "stats": {
-    "films": 24,
-    "daysActive": 24,
+    "films": 25,
+    "daysActive": 25,
     "streak": 2
   },
   "monthLabels": [
@@ -1871,10 +1871,17 @@
       "date": "2026-05-25",
       "week": 21,
       "weekday": 1,
-      "count": 0,
-      "ratingAvg": null,
-      "films": [],
-      "level": 0,
+      "count": 1,
+      "ratingAvg": 1.5,
+      "films": [
+        {
+          "title": "Don't Look Now",
+          "year": "1973",
+          "rating": 1.5,
+          "url": "https://letterboxd.com/contra_/film/dont-look-now/"
+        }
+      ],
+      "level": 1,
       "inRange": true,
       "url": "https://letterboxd.com/Contra_/diary/films/for/2026/05/25/"
     },
@@ -4635,9 +4642,30 @@
         }
       ],
       "url": "https://letterboxd.com/Contra_/diary/films/for/2026/05/18/"
+    },
+    {
+      "date": "2026-05-25",
+      "count": 1,
+      "ratingAvg": 1.5,
+      "films": [
+        {
+          "title": "Don't Look Now",
+          "year": "1973",
+          "rating": 1.5,
+          "url": "https://letterboxd.com/contra_/film/dont-look-now/"
+        }
+      ],
+      "url": "https://letterboxd.com/Contra_/diary/films/for/2026/05/25/"
     }
   ],
   "recent": [
+    {
+      "date": "2026-05-25",
+      "title": "Don't Look Now",
+      "year": "1973",
+      "rating": 1.5,
+      "url": "https://letterboxd.com/contra_/film/dont-look-now/"
+    },
     {
       "date": "2026-05-18",
       "title": "Monster",
@@ -4700,13 +4728,6 @@
       "year": "1985",
       "rating": 4,
       "url": "https://letterboxd.com/contra_/film/the-quiet-earth/"
-    },
-    {
-      "date": "2026-04-21",
-      "title": "Heretic",
-      "year": "2024",
-      "rating": 3,
-      "url": "https://letterboxd.com/contra_/film/heretic-2024/"
     }
   ]
 }
