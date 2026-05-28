@@ -4,7 +4,7 @@
   "years": [
     2026
   ],
-  "generatedAt": "2026-05-28T08:51:51.458Z",
+  "generatedAt": "2026-05-28T12:39:35.642Z",
   "meta": {
     "weekStart": "sunday",
     "minYear": 2026,
@@ -16,8 +16,8 @@
     "maxCount": 1
   },
   "stats": {
-    "films": 25,
-    "daysActive": 25,
+    "films": 26,
+    "daysActive": 26,
     "streak": 2
   },
   "monthLabels": [
@@ -1911,10 +1911,17 @@
       "date": "2026-05-28",
       "week": 21,
       "weekday": 4,
-      "count": 0,
-      "ratingAvg": null,
-      "films": [],
-      "level": 0,
+      "count": 1,
+      "ratingAvg": 5,
+      "films": [
+        {
+          "title": "12 Angry Men",
+          "year": "1957",
+          "rating": 5,
+          "url": "https://letterboxd.com/contra_/film/12-angry-men/"
+        }
+      ],
+      "level": 1,
       "inRange": true,
       "url": "https://letterboxd.com/Contra_/diary/films/for/2026/05/28/"
     },
@@ -4656,9 +4663,30 @@
         }
       ],
       "url": "https://letterboxd.com/Contra_/diary/films/for/2026/05/25/"
+    },
+    {
+      "date": "2026-05-28",
+      "count": 1,
+      "ratingAvg": 5,
+      "films": [
+        {
+          "title": "12 Angry Men",
+          "year": "1957",
+          "rating": 5,
+          "url": "https://letterboxd.com/contra_/film/12-angry-men/"
+        }
+      ],
+      "url": "https://letterboxd.com/Contra_/diary/films/for/2026/05/28/"
     }
   ],
   "recent": [
+    {
+      "date": "2026-05-28",
+      "title": "12 Angry Men",
+      "year": "1957",
+      "rating": 5,
+      "url": "https://letterboxd.com/contra_/film/12-angry-men/"
+    },
     {
       "date": "2026-05-25",
       "title": "Don't Look Now",
@@ -4721,13 +4749,6 @@
       "year": "2025",
       "rating": 4,
       "url": "https://letterboxd.com/contra_/film/the-weed-eaters/"
-    },
-    {
-      "date": "2026-04-23",
-      "title": "The Quiet Earth",
-      "year": "1985",
-      "rating": 4,
-      "url": "https://letterboxd.com/contra_/film/the-quiet-earth/"
     }
   ]
 }
