@@ -4,7 +4,7 @@
   "years": [
     2026
   ],
-  "generatedAt": "2026-06-06T10:16:27.269Z",
+  "generatedAt": "2026-06-06T12:13:57.210Z",
   "meta": {
     "weekStart": "sunday",
     "minYear": 2026,
@@ -16,8 +16,8 @@
     "maxCount": 1
   },
   "stats": {
-    "films": 27,
-    "daysActive": 27,
+    "films": 28,
+    "daysActive": 28,
     "streak": 2
   },
   "monthLabels": [
@@ -2024,10 +2024,17 @@
       "date": "2026-06-06",
       "week": 22,
       "weekday": 6,
-      "count": 0,
-      "ratingAvg": null,
-      "films": [],
-      "level": 0,
+      "count": 1,
+      "ratingAvg": 3.5,
+      "films": [
+        {
+          "title": "The Lure",
+          "year": "2015",
+          "rating": 3.5,
+          "url": "https://letterboxd.com/contra_/film/the-lure/"
+        }
+      ],
+      "level": 1,
       "inRange": true,
       "url": "https://letterboxd.com/Contra_/diary/films/for/2026/06/06/"
     },
@@ -4698,9 +4705,30 @@
         }
       ],
       "url": "https://letterboxd.com/Contra_/diary/films/for/2026/06/05/"
+    },
+    {
+      "date": "2026-06-06",
+      "count": 1,
+      "ratingAvg": 3.5,
+      "films": [
+        {
+          "title": "The Lure",
+          "year": "2015",
+          "rating": 3.5,
+          "url": "https://letterboxd.com/contra_/film/the-lure/"
+        }
+      ],
+      "url": "https://letterboxd.com/Contra_/diary/films/for/2026/06/06/"
     }
   ],
   "recent": [
+    {
+      "date": "2026-06-06",
+      "title": "The Lure",
+      "year": "2015",
+      "rating": 3.5,
+      "url": "https://letterboxd.com/contra_/film/the-lure/"
+    },
     {
       "date": "2026-06-05",
       "title": "There Will Be Blood",
@@ -4763,13 +4791,6 @@
       "year": "1994",
       "rating": 2.5,
       "url": "https://letterboxd.com/contra_/film/heavenly-creatures/"
-    },
-    {
-      "date": "2026-04-28",
-      "title": "Trainspotting",
-      "year": "1996",
-      "rating": 5,
-      "url": "https://letterboxd.com/contra_/film/trainspotting/"
     }
   ]
 }
