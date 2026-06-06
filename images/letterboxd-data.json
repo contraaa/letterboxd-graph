@@ -4,7 +4,7 @@
   "years": [
     2026
   ],
-  "generatedAt": "2026-06-06T04:16:04.886Z",
+  "generatedAt": "2026-06-06T07:53:35.986Z",
   "meta": {
     "weekStart": "sunday",
     "minYear": 2026,
@@ -16,8 +16,8 @@
     "maxCount": 1
   },
   "stats": {
-    "films": 26,
-    "daysActive": 26,
+    "films": 27,
+    "daysActive": 27,
     "streak": 2
   },
   "monthLabels": [
@@ -2006,10 +2006,17 @@
       "date": "2026-06-05",
       "week": 22,
       "weekday": 5,
-      "count": 0,
-      "ratingAvg": null,
-      "films": [],
-      "level": 0,
+      "count": 1,
+      "ratingAvg": 4,
+      "films": [
+        {
+          "title": "There Will Be Blood",
+          "year": "2007",
+          "rating": 4,
+          "url": "https://letterboxd.com/contra_/film/there-will-be-blood/"
+        }
+      ],
+      "level": 1,
       "inRange": true,
       "url": "https://letterboxd.com/Contra_/diary/films/for/2026/06/05/"
     },
@@ -4677,9 +4684,30 @@
         }
       ],
       "url": "https://letterboxd.com/Contra_/diary/films/for/2026/05/28/"
+    },
+    {
+      "date": "2026-06-05",
+      "count": 1,
+      "ratingAvg": 4,
+      "films": [
+        {
+          "title": "There Will Be Blood",
+          "year": "2007",
+          "rating": 4,
+          "url": "https://letterboxd.com/contra_/film/there-will-be-blood/"
+        }
+      ],
+      "url": "https://letterboxd.com/Contra_/diary/films/for/2026/06/05/"
     }
   ],
   "recent": [
+    {
+      "date": "2026-06-05",
+      "title": "There Will Be Blood",
+      "year": "2007",
+      "rating": 4,
+      "url": "https://letterboxd.com/contra_/film/there-will-be-blood/"
+    },
     {
       "date": "2026-05-28",
       "title": "12 Angry Men",
@@ -4742,13 +4770,6 @@
       "year": "1996",
       "rating": 5,
       "url": "https://letterboxd.com/contra_/film/trainspotting/"
-    },
-    {
-      "date": "2026-04-26",
-      "title": "The Weed Eaters",
-      "year": "2025",
-      "rating": 4,
-      "url": "https://letterboxd.com/contra_/film/the-weed-eaters/"
     }
   ]
 }
