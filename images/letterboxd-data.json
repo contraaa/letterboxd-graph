@@ -4,7 +4,7 @@
   "years": [
     2026
   ],
-  "generatedAt": "2026-06-07T09:31:12.871Z",
+  "generatedAt": "2026-06-07T11:58:38.414Z",
   "meta": {
     "weekStart": "sunday",
     "minYear": 2026,
@@ -16,9 +16,9 @@
     "maxCount": 1
   },
   "stats": {
-    "films": 28,
-    "daysActive": 28,
-    "streak": 2
+    "films": 29,
+    "daysActive": 29,
+    "streak": 3
   },
   "monthLabels": [
     {
@@ -2042,10 +2042,17 @@
       "date": "2026-06-07",
       "week": 23,
       "weekday": 0,
-      "count": 0,
-      "ratingAvg": null,
-      "films": [],
-      "level": 0,
+      "count": 1,
+      "ratingAvg": 4,
+      "films": [
+        {
+          "title": "8½",
+          "year": "1963",
+          "rating": 4,
+          "url": "https://letterboxd.com/contra_/film/8-half/"
+        }
+      ],
+      "level": 1,
       "inRange": true,
       "url": "https://letterboxd.com/Contra_/diary/films/for/2026/06/07/"
     },
@@ -4719,9 +4726,30 @@
         }
       ],
       "url": "https://letterboxd.com/Contra_/diary/films/for/2026/06/06/"
+    },
+    {
+      "date": "2026-06-07",
+      "count": 1,
+      "ratingAvg": 4,
+      "films": [
+        {
+          "title": "8½",
+          "year": "1963",
+          "rating": 4,
+          "url": "https://letterboxd.com/contra_/film/8-half/"
+        }
+      ],
+      "url": "https://letterboxd.com/Contra_/diary/films/for/2026/06/07/"
     }
   ],
   "recent": [
+    {
+      "date": "2026-06-07",
+      "title": "8½",
+      "year": "1963",
+      "rating": 4,
+      "url": "https://letterboxd.com/contra_/film/8-half/"
+    },
     {
       "date": "2026-06-06",
       "title": "The Lure",
@@ -4784,13 +4812,6 @@
       "year": "1999",
       "rating": 4.5,
       "url": "https://letterboxd.com/contra_/film/being-john-malkovich/"
-    },
-    {
-      "date": "2026-05-01",
-      "title": "Heavenly Creatures",
-      "year": "1994",
-      "rating": 2.5,
-      "url": "https://letterboxd.com/contra_/film/heavenly-creatures/"
     }
   ]
 }
