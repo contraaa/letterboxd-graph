@@ -4,7 +4,7 @@
   "years": [
     2026
   ],
-  "generatedAt": "2026-06-08T06:02:02.290Z",
+  "generatedAt": "2026-06-08T11:16:54.218Z",
   "meta": {
     "weekStart": "sunday",
     "minYear": 2026,
@@ -16,9 +16,9 @@
     "maxCount": 1
   },
   "stats": {
-    "films": 29,
-    "daysActive": 29,
-    "streak": 3
+    "films": 30,
+    "daysActive": 30,
+    "streak": 4
   },
   "monthLabels": [
     {
@@ -2060,10 +2060,17 @@
       "date": "2026-06-08",
       "week": 23,
       "weekday": 1,
-      "count": 0,
-      "ratingAvg": null,
-      "films": [],
-      "level": 0,
+      "count": 1,
+      "ratingAvg": 5,
+      "films": [
+        {
+          "title": "Phantom of the Paradise",
+          "year": "1974",
+          "rating": 5,
+          "url": "https://letterboxd.com/contra_/film/phantom-of-the-paradise/"
+        }
+      ],
+      "level": 1,
       "inRange": true,
       "url": "https://letterboxd.com/Contra_/diary/films/for/2026/06/08/"
     },
@@ -4740,9 +4747,30 @@
         }
       ],
       "url": "https://letterboxd.com/Contra_/diary/films/for/2026/06/07/"
+    },
+    {
+      "date": "2026-06-08",
+      "count": 1,
+      "ratingAvg": 5,
+      "films": [
+        {
+          "title": "Phantom of the Paradise",
+          "year": "1974",
+          "rating": 5,
+          "url": "https://letterboxd.com/contra_/film/phantom-of-the-paradise/"
+        }
+      ],
+      "url": "https://letterboxd.com/Contra_/diary/films/for/2026/06/08/"
     }
   ],
   "recent": [
+    {
+      "date": "2026-06-08",
+      "title": "Phantom of the Paradise",
+      "year": "1974",
+      "rating": 5,
+      "url": "https://letterboxd.com/contra_/film/phantom-of-the-paradise/"
+    },
     {
       "date": "2026-06-07",
       "title": "8½",
@@ -4805,13 +4833,6 @@
       "year": "2002",
       "rating": 4,
       "url": "https://letterboxd.com/contra_/film/adaptation/"
-    },
-    {
-      "date": "2026-05-07",
-      "title": "Being John Malkovich",
-      "year": "1999",
-      "rating": 4.5,
-      "url": "https://letterboxd.com/contra_/film/being-john-malkovich/"
     }
   ]
 }
