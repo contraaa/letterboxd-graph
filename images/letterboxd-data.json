@@ -4,7 +4,7 @@
   "years": [
     2026
   ],
-  "generatedAt": "2026-06-12T09:08:57.865Z",
+  "generatedAt": "2026-06-12T13:36:46.420Z",
   "meta": {
     "weekStart": "sunday",
     "minYear": 2026,
@@ -16,8 +16,8 @@
     "maxCount": 1
   },
   "stats": {
-    "films": 30,
-    "daysActive": 30,
+    "films": 31,
+    "daysActive": 31,
     "streak": 4
   },
   "monthLabels": [
@@ -2111,10 +2111,17 @@
       "date": "2026-06-12",
       "week": 23,
       "weekday": 5,
-      "count": 0,
-      "ratingAvg": null,
-      "films": [],
-      "level": 0,
+      "count": 1,
+      "ratingAvg": 4,
+      "films": [
+        {
+          "title": "Chungking Express",
+          "year": "1994",
+          "rating": 4,
+          "url": "https://letterboxd.com/contra_/film/chungking-express/"
+        }
+      ],
+      "level": 1,
       "inRange": true,
       "url": "https://letterboxd.com/Contra_/diary/films/for/2026/06/12/"
     },
@@ -4761,9 +4768,30 @@
         }
       ],
       "url": "https://letterboxd.com/Contra_/diary/films/for/2026/06/08/"
+    },
+    {
+      "date": "2026-06-12",
+      "count": 1,
+      "ratingAvg": 4,
+      "films": [
+        {
+          "title": "Chungking Express",
+          "year": "1994",
+          "rating": 4,
+          "url": "https://letterboxd.com/contra_/film/chungking-express/"
+        }
+      ],
+      "url": "https://letterboxd.com/Contra_/diary/films/for/2026/06/12/"
     }
   ],
   "recent": [
+    {
+      "date": "2026-06-12",
+      "title": "Chungking Express",
+      "year": "1994",
+      "rating": 4,
+      "url": "https://letterboxd.com/contra_/film/chungking-express/"
+    },
     {
       "date": "2026-06-08",
       "title": "Phantom of the Paradise",
@@ -4826,13 +4854,6 @@
       "year": "1964",
       "rating": 4,
       "url": "https://letterboxd.com/contra_/film/joy-house/"
-    },
-    {
-      "date": "2026-05-10",
-      "title": "Adaptation.",
-      "year": "2002",
-      "rating": 4,
-      "url": "https://letterboxd.com/contra_/film/adaptation/"
     }
   ]
 }
