@@ -4,7 +4,7 @@
   "years": [
     2026
   ],
-  "generatedAt": "2026-06-29T06:00:36.038Z",
+  "generatedAt": "2026-06-29T11:20:28.813Z",
   "meta": {
     "weekStart": "sunday",
     "minYear": 2026,
@@ -16,8 +16,8 @@
     "maxCount": 1
   },
   "stats": {
-    "films": 31,
-    "daysActive": 31,
+    "films": 32,
+    "daysActive": 32,
     "streak": 4
   },
   "monthLabels": [
@@ -2305,10 +2305,17 @@
       "date": "2026-06-29",
       "week": 26,
       "weekday": 1,
-      "count": 0,
-      "ratingAvg": null,
-      "films": [],
-      "level": 0,
+      "count": 1,
+      "ratingAvg": 4,
+      "films": [
+        {
+          "title": "Fallen Angels",
+          "year": "1995",
+          "rating": 4,
+          "url": "https://letterboxd.com/contra_/film/fallen-angels/"
+        }
+      ],
+      "level": 1,
       "inRange": true,
       "url": "https://letterboxd.com/Contra_/diary/films/for/2026/06/29/"
     },
@@ -4782,9 +4789,30 @@
         }
       ],
       "url": "https://letterboxd.com/Contra_/diary/films/for/2026/06/12/"
+    },
+    {
+      "date": "2026-06-29",
+      "count": 1,
+      "ratingAvg": 4,
+      "films": [
+        {
+          "title": "Fallen Angels",
+          "year": "1995",
+          "rating": 4,
+          "url": "https://letterboxd.com/contra_/film/fallen-angels/"
+        }
+      ],
+      "url": "https://letterboxd.com/Contra_/diary/films/for/2026/06/29/"
     }
   ],
   "recent": [
+    {
+      "date": "2026-06-29",
+      "title": "Fallen Angels",
+      "year": "1995",
+      "rating": 4,
+      "url": "https://letterboxd.com/contra_/film/fallen-angels/"
+    },
     {
       "date": "2026-06-12",
       "title": "Chungking Express",
@@ -4847,13 +4875,6 @@
       "year": "1995",
       "rating": 3.5,
       "url": "https://letterboxd.com/contra_/film/heat-1995/"
-    },
-    {
-      "date": "2026-05-11",
-      "title": "Joy House",
-      "year": "1964",
-      "rating": 4,
-      "url": "https://letterboxd.com/contra_/film/joy-house/"
     }
   ]
 }
