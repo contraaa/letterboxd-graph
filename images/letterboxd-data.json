@@ -4,7 +4,7 @@
   "years": [
     2026
   ],
-  "generatedAt": "2026-07-13T07:31:08.353Z",
+  "generatedAt": "2026-07-13T11:25:31.954Z",
   "meta": {
     "weekStart": "sunday",
     "minYear": 2026,
@@ -16,8 +16,8 @@
     "maxCount": 1
   },
   "stats": {
-    "films": 32,
-    "daysActive": 32,
+    "films": 33,
+    "daysActive": 33,
     "streak": 4
   },
   "monthLabels": [
@@ -2466,10 +2466,17 @@
       "date": "2026-07-13",
       "week": 28,
       "weekday": 1,
-      "count": 0,
-      "ratingAvg": null,
-      "films": [],
-      "level": 0,
+      "count": 1,
+      "ratingAvg": 3.5,
+      "films": [
+        {
+          "title": "Evil Does Not Exist",
+          "year": "2023",
+          "rating": 3.5,
+          "url": "https://letterboxd.com/contra_/film/evil-does-not-exist/"
+        }
+      ],
+      "level": 1,
       "inRange": true,
       "url": "https://letterboxd.com/Contra_/diary/films/for/2026/07/13/"
     },
@@ -4803,9 +4810,30 @@
         }
       ],
       "url": "https://letterboxd.com/Contra_/diary/films/for/2026/06/29/"
+    },
+    {
+      "date": "2026-07-13",
+      "count": 1,
+      "ratingAvg": 3.5,
+      "films": [
+        {
+          "title": "Evil Does Not Exist",
+          "year": "2023",
+          "rating": 3.5,
+          "url": "https://letterboxd.com/contra_/film/evil-does-not-exist/"
+        }
+      ],
+      "url": "https://letterboxd.com/Contra_/diary/films/for/2026/07/13/"
     }
   ],
   "recent": [
+    {
+      "date": "2026-07-13",
+      "title": "Evil Does Not Exist",
+      "year": "2023",
+      "rating": 3.5,
+      "url": "https://letterboxd.com/contra_/film/evil-does-not-exist/"
+    },
     {
       "date": "2026-06-29",
       "title": "Fallen Angels",
@@ -4868,13 +4896,6 @@
       "year": "2023",
       "rating": 3.5,
       "url": "https://letterboxd.com/contra_/film/monster-2023/"
-    },
-    {
-      "date": "2026-05-17",
-      "title": "Heat",
-      "year": "1995",
-      "rating": 3.5,
-      "url": "https://letterboxd.com/contra_/film/heat-1995/"
     }
   ]
 }
