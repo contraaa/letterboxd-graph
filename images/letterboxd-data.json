@@ -4,7 +4,7 @@
   "years": [
     2026
   ],
-  "generatedAt": "2026-07-20T07:21:47.346Z",
+  "generatedAt": "2026-07-20T11:10:21.628Z",
   "meta": {
     "weekStart": "sunday",
     "minYear": 2026,
@@ -16,8 +16,8 @@
     "maxCount": 1
   },
   "stats": {
-    "films": 33,
-    "daysActive": 33,
+    "films": 34,
+    "daysActive": 34,
     "streak": 4
   },
   "monthLabels": [
@@ -2550,10 +2550,17 @@
       "date": "2026-07-20",
       "week": 29,
       "weekday": 1,
-      "count": 0,
-      "ratingAvg": null,
-      "films": [],
-      "level": 0,
+      "count": 1,
+      "ratingAvg": 3,
+      "films": [
+        {
+          "title": "Él",
+          "year": "1953",
+          "rating": 3,
+          "url": "https://letterboxd.com/contra_/film/el/"
+        }
+      ],
+      "level": 1,
       "inRange": true,
       "url": "https://letterboxd.com/Contra_/diary/films/for/2026/07/20/"
     },
@@ -4824,9 +4831,30 @@
         }
       ],
       "url": "https://letterboxd.com/Contra_/diary/films/for/2026/07/13/"
+    },
+    {
+      "date": "2026-07-20",
+      "count": 1,
+      "ratingAvg": 3,
+      "films": [
+        {
+          "title": "Él",
+          "year": "1953",
+          "rating": 3,
+          "url": "https://letterboxd.com/contra_/film/el/"
+        }
+      ],
+      "url": "https://letterboxd.com/Contra_/diary/films/for/2026/07/20/"
     }
   ],
   "recent": [
+    {
+      "date": "2026-07-20",
+      "title": "Él",
+      "year": "1953",
+      "rating": 3,
+      "url": "https://letterboxd.com/contra_/film/el/"
+    },
     {
       "date": "2026-07-13",
       "title": "Evil Does Not Exist",
@@ -4889,13 +4917,6 @@
       "year": "1973",
       "rating": 1.5,
       "url": "https://letterboxd.com/contra_/film/dont-look-now/"
-    },
-    {
-      "date": "2026-05-18",
-      "title": "Monster",
-      "year": "2023",
-      "rating": 3.5,
-      "url": "https://letterboxd.com/contra_/film/monster-2023/"
     }
   ]
 }
