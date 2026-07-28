@@ -4,7 +4,7 @@
   "years": [
     2026
   ],
-  "generatedAt": "2026-07-28T21:17:04.773Z",
+  "generatedAt": "2026-07-28T23:10:55.748Z",
   "meta": {
     "weekStart": "sunday",
     "minYear": 2026,
@@ -16,8 +16,8 @@
     "maxCount": 1
   },
   "stats": {
-    "films": 34,
-    "daysActive": 34,
+    "films": 35,
+    "daysActive": 35,
     "streak": 4
   },
   "monthLabels": [
@@ -2656,10 +2656,17 @@
       "date": "2026-07-29",
       "week": 30,
       "weekday": 3,
-      "count": 0,
-      "ratingAvg": null,
-      "films": [],
-      "level": 0,
+      "count": 1,
+      "ratingAvg": 3,
+      "films": [
+        {
+          "title": "The Wind",
+          "year": "1928",
+          "rating": 3,
+          "url": "https://letterboxd.com/contra_/film/the-wind/"
+        }
+      ],
+      "level": 1,
       "inRange": true,
       "url": "https://letterboxd.com/Contra_/diary/films/for/2026/07/29/"
     },
@@ -4845,9 +4852,30 @@
         }
       ],
       "url": "https://letterboxd.com/Contra_/diary/films/for/2026/07/20/"
+    },
+    {
+      "date": "2026-07-29",
+      "count": 1,
+      "ratingAvg": 3,
+      "films": [
+        {
+          "title": "The Wind",
+          "year": "1928",
+          "rating": 3,
+          "url": "https://letterboxd.com/contra_/film/the-wind/"
+        }
+      ],
+      "url": "https://letterboxd.com/Contra_/diary/films/for/2026/07/29/"
     }
   ],
   "recent": [
+    {
+      "date": "2026-07-29",
+      "title": "The Wind",
+      "year": "1928",
+      "rating": 3,
+      "url": "https://letterboxd.com/contra_/film/the-wind/"
+    },
     {
       "date": "2026-07-20",
       "title": "Él",
@@ -4910,13 +4938,6 @@
       "year": "1957",
       "rating": 5,
       "url": "https://letterboxd.com/contra_/film/12-angry-men/"
-    },
-    {
-      "date": "2026-05-25",
-      "title": "Don't Look Now",
-      "year": "1973",
-      "rating": 1.5,
-      "url": "https://letterboxd.com/contra_/film/dont-look-now/"
     }
   ]
 }
