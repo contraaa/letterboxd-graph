@@ -4,7 +4,7 @@
   "years": [
     2026
   ],
-  "generatedAt": "2026-08-03T08:39:00.145Z",
+  "generatedAt": "2026-08-03T12:34:49.240Z",
   "meta": {
     "weekStart": "sunday",
     "minYear": 2026,
@@ -16,8 +16,8 @@
     "maxCount": 1
   },
   "stats": {
-    "films": 35,
-    "daysActive": 35,
+    "films": 36,
+    "daysActive": 36,
     "streak": 4
   },
   "monthLabels": [
@@ -2718,10 +2718,17 @@
       "date": "2026-08-03",
       "week": 31,
       "weekday": 1,
-      "count": 0,
-      "ratingAvg": null,
-      "films": [],
-      "level": 0,
+      "count": 1,
+      "ratingAvg": 4.5,
+      "films": [
+        {
+          "title": "Mississippi Masala",
+          "year": "1991",
+          "rating": 4.5,
+          "url": "https://letterboxd.com/contra_/film/mississippi-masala/"
+        }
+      ],
+      "level": 1,
       "inRange": true,
       "url": "https://letterboxd.com/Contra_/diary/films/for/2026/08/03/"
     },
@@ -4866,9 +4873,30 @@
         }
       ],
       "url": "https://letterboxd.com/Contra_/diary/films/for/2026/07/29/"
+    },
+    {
+      "date": "2026-08-03",
+      "count": 1,
+      "ratingAvg": 4.5,
+      "films": [
+        {
+          "title": "Mississippi Masala",
+          "year": "1991",
+          "rating": 4.5,
+          "url": "https://letterboxd.com/contra_/film/mississippi-masala/"
+        }
+      ],
+      "url": "https://letterboxd.com/Contra_/diary/films/for/2026/08/03/"
     }
   ],
   "recent": [
+    {
+      "date": "2026-08-03",
+      "title": "Mississippi Masala",
+      "year": "1991",
+      "rating": 4.5,
+      "url": "https://letterboxd.com/contra_/film/mississippi-masala/"
+    },
     {
       "date": "2026-07-29",
       "title": "The Wind",
@@ -4931,13 +4959,6 @@
       "year": "2007",
       "rating": 4,
       "url": "https://letterboxd.com/contra_/film/there-will-be-blood/"
-    },
-    {
-      "date": "2026-05-28",
-      "title": "12 Angry Men",
-      "year": "1957",
-      "rating": 5,
-      "url": "https://letterboxd.com/contra_/film/12-angry-men/"
     }
   ]
 }
