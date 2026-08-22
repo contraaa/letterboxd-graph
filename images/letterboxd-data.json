@@ -4,7 +4,7 @@
   "years": [
     2026
   ],
-  "generatedAt": "2026-08-22T05:36:31.894Z",
+  "generatedAt": "2026-08-22T06:53:49.977Z",
   "meta": {
     "weekStart": "sunday",
     "minYear": 2026,
@@ -16,8 +16,8 @@
     "maxCount": 1
   },
   "stats": {
-    "films": 36,
-    "daysActive": 36,
+    "films": 37,
+    "daysActive": 37,
     "streak": 4
   },
   "monthLabels": [
@@ -2934,10 +2934,17 @@
       "date": "2026-08-22",
       "week": 33,
       "weekday": 6,
-      "count": 0,
-      "ratingAvg": null,
-      "films": [],
-      "level": 0,
+      "count": 1,
+      "ratingAvg": 3.5,
+      "films": [
+        {
+          "title": "The Golden Spurtle",
+          "year": "2025",
+          "rating": 3.5,
+          "url": "https://letterboxd.com/contra_/film/the-golden-spurtle/"
+        }
+      ],
+      "level": 1,
       "inRange": true,
       "url": "https://letterboxd.com/Contra_/diary/films/for/2026/08/22/"
     },
@@ -4887,9 +4894,30 @@
         }
       ],
       "url": "https://letterboxd.com/Contra_/diary/films/for/2026/08/03/"
+    },
+    {
+      "date": "2026-08-22",
+      "count": 1,
+      "ratingAvg": 3.5,
+      "films": [
+        {
+          "title": "The Golden Spurtle",
+          "year": "2025",
+          "rating": 3.5,
+          "url": "https://letterboxd.com/contra_/film/the-golden-spurtle/"
+        }
+      ],
+      "url": "https://letterboxd.com/Contra_/diary/films/for/2026/08/22/"
     }
   ],
   "recent": [
+    {
+      "date": "2026-08-22",
+      "title": "The Golden Spurtle",
+      "year": "2025",
+      "rating": 3.5,
+      "url": "https://letterboxd.com/contra_/film/the-golden-spurtle/"
+    },
     {
       "date": "2026-08-03",
       "title": "Mississippi Masala",
@@ -4952,13 +4980,6 @@
       "year": "2015",
       "rating": 3.5,
       "url": "https://letterboxd.com/contra_/film/the-lure/"
-    },
-    {
-      "date": "2026-06-05",
-      "title": "There Will Be Blood",
-      "year": "2007",
-      "rating": 4,
-      "url": "https://letterboxd.com/contra_/film/there-will-be-blood/"
     }
   ]
 }
