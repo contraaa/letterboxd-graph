@@ -4,7 +4,7 @@
   "years": [
     2026
   ],
-  "generatedAt": "2026-08-24T19:36:39.364Z",
+  "generatedAt": "2026-08-24T20:40:25.809Z",
   "meta": {
     "weekStart": "sunday",
     "minYear": 2026,
@@ -16,8 +16,8 @@
     "maxCount": 1
   },
   "stats": {
-    "films": 37,
-    "daysActive": 37,
+    "films": 38,
+    "daysActive": 38,
     "streak": 4
   },
   "monthLabels": [
@@ -2963,10 +2963,17 @@
       "date": "2026-08-24",
       "week": 34,
       "weekday": 1,
-      "count": 0,
-      "ratingAvg": null,
-      "films": [],
-      "level": 0,
+      "count": 1,
+      "ratingAvg": 4.5,
+      "films": [
+        {
+          "title": "Hard Boiled",
+          "year": "1992",
+          "rating": 4.5,
+          "url": "https://letterboxd.com/contra_/film/hard-boiled/"
+        }
+      ],
+      "level": 1,
       "inRange": true,
       "url": "https://letterboxd.com/Contra_/diary/films/for/2026/08/24/"
     },
@@ -4908,9 +4915,30 @@
         }
       ],
       "url": "https://letterboxd.com/Contra_/diary/films/for/2026/08/22/"
+    },
+    {
+      "date": "2026-08-24",
+      "count": 1,
+      "ratingAvg": 4.5,
+      "films": [
+        {
+          "title": "Hard Boiled",
+          "year": "1992",
+          "rating": 4.5,
+          "url": "https://letterboxd.com/contra_/film/hard-boiled/"
+        }
+      ],
+      "url": "https://letterboxd.com/Contra_/diary/films/for/2026/08/24/"
     }
   ],
   "recent": [
+    {
+      "date": "2026-08-24",
+      "title": "Hard Boiled",
+      "year": "1992",
+      "rating": 4.5,
+      "url": "https://letterboxd.com/contra_/film/hard-boiled/"
+    },
     {
       "date": "2026-08-22",
       "title": "The Golden Spurtle",
@@ -4973,13 +5001,6 @@
       "year": "1963",
       "rating": 4,
       "url": "https://letterboxd.com/contra_/film/8-half/"
-    },
-    {
-      "date": "2026-06-06",
-      "title": "The Lure",
-      "year": "2015",
-      "rating": 3.5,
-      "url": "https://letterboxd.com/contra_/film/the-lure/"
     }
   ]
 }
