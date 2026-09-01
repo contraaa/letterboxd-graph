@@ -4,7 +4,7 @@
   "years": [
     2026
   ],
-  "generatedAt": "2026-09-01T09:57:05.477Z",
+  "generatedAt": "2026-09-01T14:44:38.645Z",
   "meta": {
     "weekStart": "sunday",
     "minYear": 2026,
@@ -16,8 +16,8 @@
     "maxCount": 1
   },
   "stats": {
-    "films": 38,
-    "daysActive": 38,
+    "films": 40,
+    "daysActive": 40,
     "streak": 4
   },
   "monthLabels": [
@@ -2901,10 +2901,17 @@
       "date": "2026-08-19",
       "week": 33,
       "weekday": 3,
-      "count": 0,
-      "ratingAvg": null,
-      "films": [],
-      "level": 0,
+      "count": 1,
+      "ratingAvg": 3,
+      "films": [
+        {
+          "title": "Spy Kids",
+          "year": "2001",
+          "rating": 3,
+          "url": "https://letterboxd.com/contra_/film/spy-kids/"
+        }
+      ],
+      "level": 1,
       "inRange": true,
       "url": "https://letterboxd.com/Contra_/diary/films/for/2026/08/19/"
     },
@@ -3058,10 +3065,17 @@
       "date": "2026-09-01",
       "week": 35,
       "weekday": 2,
-      "count": 0,
-      "ratingAvg": null,
-      "films": [],
-      "level": 0,
+      "count": 1,
+      "ratingAvg": 1.5,
+      "films": [
+        {
+          "title": "The Drama",
+          "year": "2026",
+          "rating": 1.5,
+          "url": "https://letterboxd.com/contra_/film/the-drama/"
+        }
+      ],
+      "level": 1,
       "inRange": true,
       "url": "https://letterboxd.com/Contra_/diary/films/for/2026/09/01/"
     },
@@ -4903,6 +4917,20 @@
       "url": "https://letterboxd.com/Contra_/diary/films/for/2026/08/03/"
     },
     {
+      "date": "2026-08-19",
+      "count": 1,
+      "ratingAvg": 3,
+      "films": [
+        {
+          "title": "Spy Kids",
+          "year": "2001",
+          "rating": 3,
+          "url": "https://letterboxd.com/contra_/film/spy-kids/"
+        }
+      ],
+      "url": "https://letterboxd.com/Contra_/diary/films/for/2026/08/19/"
+    },
+    {
       "date": "2026-08-22",
       "count": 1,
       "ratingAvg": 3.5,
@@ -4929,9 +4957,30 @@
         }
       ],
       "url": "https://letterboxd.com/Contra_/diary/films/for/2026/08/24/"
+    },
+    {
+      "date": "2026-09-01",
+      "count": 1,
+      "ratingAvg": 1.5,
+      "films": [
+        {
+          "title": "The Drama",
+          "year": "2026",
+          "rating": 1.5,
+          "url": "https://letterboxd.com/contra_/film/the-drama/"
+        }
+      ],
+      "url": "https://letterboxd.com/Contra_/diary/films/for/2026/09/01/"
     }
   ],
   "recent": [
+    {
+      "date": "2026-09-01",
+      "title": "The Drama",
+      "year": "2026",
+      "rating": 1.5,
+      "url": "https://letterboxd.com/contra_/film/the-drama/"
+    },
     {
       "date": "2026-08-24",
       "title": "Hard Boiled",
@@ -4945,6 +4994,13 @@
       "year": "2025",
       "rating": 3.5,
       "url": "https://letterboxd.com/contra_/film/the-golden-spurtle/"
+    },
+    {
+      "date": "2026-08-19",
+      "title": "Spy Kids",
+      "year": "2001",
+      "rating": 3,
+      "url": "https://letterboxd.com/contra_/film/spy-kids/"
     },
     {
       "date": "2026-08-03",
@@ -4987,20 +5043,6 @@
       "year": "1994",
       "rating": 4,
       "url": "https://letterboxd.com/contra_/film/chungking-express/"
-    },
-    {
-      "date": "2026-06-08",
-      "title": "Phantom of the Paradise",
-      "year": "1974",
-      "rating": 5,
-      "url": "https://letterboxd.com/contra_/film/phantom-of-the-paradise/"
-    },
-    {
-      "date": "2026-06-07",
-      "title": "8½",
-      "year": "1963",
-      "rating": 4,
-      "url": "https://letterboxd.com/contra_/film/8-half/"
     }
   ]
 }
