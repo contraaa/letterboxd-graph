@@ -4,7 +4,7 @@
   "years": [
     2026
   ],
-  "generatedAt": "2026-09-10T09:35:30.782Z",
+  "generatedAt": "2026-09-10T14:17:21.042Z",
   "meta": {
     "weekStart": "sunday",
     "minYear": 2026,
@@ -16,8 +16,8 @@
     "maxCount": 1
   },
   "stats": {
-    "films": 41,
-    "daysActive": 41,
+    "films": 42,
+    "daysActive": 42,
     "streak": 4
   },
   "monthLabels": [
@@ -3178,10 +3178,17 @@
       "date": "2026-09-10",
       "week": 36,
       "weekday": 4,
-      "count": 0,
-      "ratingAvg": null,
-      "films": [],
-      "level": 0,
+      "count": 1,
+      "ratingAvg": 4,
+      "films": [
+        {
+          "title": "Goodbye Pork Pie",
+          "year": "1980",
+          "rating": 4,
+          "url": "https://letterboxd.com/contra_/film/goodbye-pork-pie/"
+        }
+      ],
+      "level": 1,
       "inRange": true,
       "url": "https://letterboxd.com/Contra_/diary/films/for/2026/09/10/"
     },
@@ -4992,9 +4999,30 @@
         }
       ],
       "url": "https://letterboxd.com/Contra_/diary/films/for/2026/09/07/"
+    },
+    {
+      "date": "2026-09-10",
+      "count": 1,
+      "ratingAvg": 4,
+      "films": [
+        {
+          "title": "Goodbye Pork Pie",
+          "year": "1980",
+          "rating": 4,
+          "url": "https://letterboxd.com/contra_/film/goodbye-pork-pie/"
+        }
+      ],
+      "url": "https://letterboxd.com/Contra_/diary/films/for/2026/09/10/"
     }
   ],
   "recent": [
+    {
+      "date": "2026-09-10",
+      "title": "Goodbye Pork Pie",
+      "year": "1980",
+      "rating": 4,
+      "url": "https://letterboxd.com/contra_/film/goodbye-pork-pie/"
+    },
     {
       "date": "2026-09-07",
       "title": "The Happiest Guy in the World",
@@ -5057,13 +5085,6 @@
       "year": "2023",
       "rating": 3.5,
       "url": "https://letterboxd.com/contra_/film/evil-does-not-exist/"
-    },
-    {
-      "date": "2026-06-29",
-      "title": "Fallen Angels",
-      "year": "1995",
-      "rating": 4,
-      "url": "https://letterboxd.com/contra_/film/fallen-angels/"
     }
   ]
 }
