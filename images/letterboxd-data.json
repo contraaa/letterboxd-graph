@@ -4,7 +4,7 @@
   "years": [
     2026
   ],
-  "generatedAt": "2026-09-16T16:43:48.229Z",
+  "generatedAt": "2026-09-16T20:01:33.013Z",
   "meta": {
     "weekStart": "sunday",
     "minYear": 2026,
@@ -16,8 +16,8 @@
     "maxCount": 1
   },
   "stats": {
-    "films": 42,
-    "daysActive": 42,
+    "films": 43,
+    "daysActive": 43,
     "streak": 4
   },
   "monthLabels": [
@@ -3251,10 +3251,17 @@
       "date": "2026-09-16",
       "week": 37,
       "weekday": 3,
-      "count": 0,
-      "ratingAvg": null,
-      "films": [],
-      "level": 0,
+      "count": 1,
+      "ratingAvg": 4,
+      "films": [
+        {
+          "title": "Coyote vs. Acme",
+          "year": "2026",
+          "rating": 4,
+          "url": "https://letterboxd.com/contra_/film/coyote-vs-acme/"
+        }
+      ],
+      "level": 1,
       "inRange": true,
       "url": "https://letterboxd.com/Contra_/diary/films/for/2026/09/16/"
     },
@@ -5013,9 +5020,30 @@
         }
       ],
       "url": "https://letterboxd.com/Contra_/diary/films/for/2026/09/10/"
+    },
+    {
+      "date": "2026-09-16",
+      "count": 1,
+      "ratingAvg": 4,
+      "films": [
+        {
+          "title": "Coyote vs. Acme",
+          "year": "2026",
+          "rating": 4,
+          "url": "https://letterboxd.com/contra_/film/coyote-vs-acme/"
+        }
+      ],
+      "url": "https://letterboxd.com/Contra_/diary/films/for/2026/09/16/"
     }
   ],
   "recent": [
+    {
+      "date": "2026-09-16",
+      "title": "Coyote vs. Acme",
+      "year": "2026",
+      "rating": 4,
+      "url": "https://letterboxd.com/contra_/film/coyote-vs-acme/"
+    },
     {
       "date": "2026-09-10",
       "title": "Goodbye Pork Pie",
@@ -5078,13 +5106,6 @@
       "year": "1953",
       "rating": 3,
       "url": "https://letterboxd.com/contra_/film/el/"
-    },
-    {
-      "date": "2026-07-13",
-      "title": "Evil Does Not Exist",
-      "year": "2023",
-      "rating": 3.5,
-      "url": "https://letterboxd.com/contra_/film/evil-does-not-exist/"
     }
   ]
 }
