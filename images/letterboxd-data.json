@@ -4,7 +4,7 @@
   "years": [
     2026
   ],
-  "generatedAt": "2026-09-17T18:08:41.362Z",
+  "generatedAt": "2026-09-17T22:05:05.364Z",
   "meta": {
     "weekStart": "sunday",
     "minYear": 2026,
@@ -16,8 +16,8 @@
     "maxCount": 1
   },
   "stats": {
-    "films": 43,
-    "daysActive": 43,
+    "films": 44,
+    "daysActive": 44,
     "streak": 4
   },
   "monthLabels": [
@@ -3269,10 +3269,17 @@
       "date": "2026-09-17",
       "week": 37,
       "weekday": 4,
-      "count": 0,
-      "ratingAvg": null,
-      "films": [],
-      "level": 0,
+      "count": 1,
+      "ratingAvg": 3.5,
+      "films": [
+        {
+          "title": "Bugonia",
+          "year": "2025",
+          "rating": 3.5,
+          "url": "https://letterboxd.com/contra_/film/bugonia/"
+        }
+      ],
+      "level": 1,
       "inRange": true,
       "url": "https://letterboxd.com/Contra_/diary/films/for/2026/09/17/"
     },
@@ -5034,9 +5041,30 @@
         }
       ],
       "url": "https://letterboxd.com/Contra_/diary/films/for/2026/09/16/"
+    },
+    {
+      "date": "2026-09-17",
+      "count": 1,
+      "ratingAvg": 3.5,
+      "films": [
+        {
+          "title": "Bugonia",
+          "year": "2025",
+          "rating": 3.5,
+          "url": "https://letterboxd.com/contra_/film/bugonia/"
+        }
+      ],
+      "url": "https://letterboxd.com/Contra_/diary/films/for/2026/09/17/"
     }
   ],
   "recent": [
+    {
+      "date": "2026-09-17",
+      "title": "Bugonia",
+      "year": "2025",
+      "rating": 3.5,
+      "url": "https://letterboxd.com/contra_/film/bugonia/"
+    },
     {
       "date": "2026-09-16",
       "title": "Coyote vs. Acme",
@@ -5099,13 +5127,6 @@
       "year": "1928",
       "rating": 3,
       "url": "https://letterboxd.com/contra_/film/the-wind/"
-    },
-    {
-      "date": "2026-07-20",
-      "title": "Él",
-      "year": "1953",
-      "rating": 3,
-      "url": "https://letterboxd.com/contra_/film/el/"
     }
   ]
 }
