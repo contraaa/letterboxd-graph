@@ -4,7 +4,7 @@
   "years": [
     2026
   ],
-  "generatedAt": "2026-09-20T06:05:16.571Z",
+  "generatedAt": "2026-09-20T11:13:45.145Z",
   "meta": {
     "weekStart": "sunday",
     "minYear": 2026,
@@ -16,8 +16,8 @@
     "maxCount": 1
   },
   "stats": {
-    "films": 44,
-    "daysActive": 44,
+    "films": 45,
+    "daysActive": 45,
     "streak": 4
   },
   "monthLabels": [
@@ -3309,10 +3309,17 @@
       "date": "2026-09-20",
       "week": 38,
       "weekday": 0,
-      "count": 0,
-      "ratingAvg": null,
-      "films": [],
-      "level": 0,
+      "count": 1,
+      "ratingAvg": 4,
+      "films": [
+        {
+          "title": "The Castle",
+          "year": "1997",
+          "rating": 4,
+          "url": "https://letterboxd.com/contra_/film/the-castle-1997/"
+        }
+      ],
+      "level": 1,
       "inRange": true,
       "url": "https://letterboxd.com/Contra_/diary/films/for/2026/09/20/"
     },
@@ -5055,9 +5062,30 @@
         }
       ],
       "url": "https://letterboxd.com/Contra_/diary/films/for/2026/09/17/"
+    },
+    {
+      "date": "2026-09-20",
+      "count": 1,
+      "ratingAvg": 4,
+      "films": [
+        {
+          "title": "The Castle",
+          "year": "1997",
+          "rating": 4,
+          "url": "https://letterboxd.com/contra_/film/the-castle-1997/"
+        }
+      ],
+      "url": "https://letterboxd.com/Contra_/diary/films/for/2026/09/20/"
     }
   ],
   "recent": [
+    {
+      "date": "2026-09-20",
+      "title": "The Castle",
+      "year": "1997",
+      "rating": 4,
+      "url": "https://letterboxd.com/contra_/film/the-castle-1997/"
+    },
     {
       "date": "2026-09-17",
       "title": "Bugonia",
@@ -5120,13 +5148,6 @@
       "year": "1991",
       "rating": 4.5,
       "url": "https://letterboxd.com/contra_/film/mississippi-masala/"
-    },
-    {
-      "date": "2026-07-29",
-      "title": "The Wind",
-      "year": "1928",
-      "rating": 3,
-      "url": "https://letterboxd.com/contra_/film/the-wind/"
     }
   ]
 }
