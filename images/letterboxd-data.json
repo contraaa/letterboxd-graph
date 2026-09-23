@@ -4,7 +4,7 @@
   "years": [
     2026
   ],
-  "generatedAt": "2026-09-23T00:20:25.489Z",
+  "generatedAt": "2026-09-23T05:50:49.277Z",
   "meta": {
     "weekStart": "sunday",
     "minYear": 2026,
@@ -16,8 +16,8 @@
     "maxCount": 1
   },
   "stats": {
-    "films": 45,
-    "daysActive": 45,
+    "films": 46,
+    "daysActive": 46,
     "streak": 4
   },
   "monthLabels": [
@@ -3349,10 +3349,17 @@
       "date": "2026-09-23",
       "week": 38,
       "weekday": 3,
-      "count": 0,
-      "ratingAvg": null,
-      "films": [],
-      "level": 0,
+      "count": 1,
+      "ratingAvg": 3.5,
+      "films": [
+        {
+          "title": "Some Kind of Heaven",
+          "year": "2020",
+          "rating": 3.5,
+          "url": "https://letterboxd.com/contra_/film/some-kind-of-heaven/"
+        }
+      ],
+      "level": 1,
       "inRange": true,
       "url": "https://letterboxd.com/Contra_/diary/films/for/2026/09/23/"
     },
@@ -5076,9 +5083,30 @@
         }
       ],
       "url": "https://letterboxd.com/Contra_/diary/films/for/2026/09/20/"
+    },
+    {
+      "date": "2026-09-23",
+      "count": 1,
+      "ratingAvg": 3.5,
+      "films": [
+        {
+          "title": "Some Kind of Heaven",
+          "year": "2020",
+          "rating": 3.5,
+          "url": "https://letterboxd.com/contra_/film/some-kind-of-heaven/"
+        }
+      ],
+      "url": "https://letterboxd.com/Contra_/diary/films/for/2026/09/23/"
     }
   ],
   "recent": [
+    {
+      "date": "2026-09-23",
+      "title": "Some Kind of Heaven",
+      "year": "2020",
+      "rating": 3.5,
+      "url": "https://letterboxd.com/contra_/film/some-kind-of-heaven/"
+    },
     {
       "date": "2026-09-20",
       "title": "The Castle",
@@ -5141,13 +5169,6 @@
       "year": "2001",
       "rating": 3,
       "url": "https://letterboxd.com/contra_/film/spy-kids/"
-    },
-    {
-      "date": "2026-08-03",
-      "title": "Mississippi Masala",
-      "year": "1991",
-      "rating": 4.5,
-      "url": "https://letterboxd.com/contra_/film/mississippi-masala/"
     }
   ]
 }
