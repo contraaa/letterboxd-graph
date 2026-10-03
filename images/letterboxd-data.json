@@ -4,7 +4,7 @@
   "years": [
     2026
   ],
-  "generatedAt": "2026-10-03T21:07:24.139Z",
+  "generatedAt": "2026-10-03T23:45:38.111Z",
   "meta": {
     "weekStart": "sunday",
     "minYear": 2026,
@@ -3412,12 +3412,12 @@
       "week": 39,
       "weekday": 1,
       "count": 1,
-      "ratingAvg": 4,
+      "ratingAvg": 4.5,
       "films": [
         {
           "title": "Ratcatcher",
           "year": "1999",
-          "rating": 4,
+          "rating": 4.5,
           "url": "https://letterboxd.com/contra_/film/ratcatcher/"
         }
       ],
@@ -5108,12 +5108,12 @@
     {
       "date": "2026-09-28",
       "count": 1,
-      "ratingAvg": 4,
+      "ratingAvg": 4.5,
       "films": [
         {
           "title": "Ratcatcher",
           "year": "1999",
-          "rating": 4,
+          "rating": 4.5,
           "url": "https://letterboxd.com/contra_/film/ratcatcher/"
         }
       ],
@@ -5125,7 +5125,7 @@
       "date": "2026-09-28",
       "title": "Ratcatcher",
       "year": "1999",
-      "rating": 4,
+      "rating": 4.5,
       "url": "https://letterboxd.com/contra_/film/ratcatcher/"
     },
     {
