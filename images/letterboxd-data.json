@@ -4,7 +4,7 @@
   "years": [
     2026
   ],
-  "generatedAt": "2026-10-12T17:45:20.101Z",
+  "generatedAt": "2026-10-13T00:34:12.775Z",
   "meta": {
     "weekStart": "sunday",
     "minYear": 2026,
@@ -16,8 +16,8 @@
     "maxCount": 1
   },
   "stats": {
-    "films": 47,
-    "daysActive": 47,
+    "films": 48,
+    "daysActive": 48,
     "streak": 4
   },
   "monthLabels": [
@@ -3572,10 +3572,17 @@
       "date": "2026-10-12",
       "week": 41,
       "weekday": 1,
-      "count": 0,
-      "ratingAvg": null,
-      "films": [],
-      "level": 0,
+      "count": 1,
+      "ratingAvg": 3,
+      "films": [
+        {
+          "title": "Letter Never Sent",
+          "year": "1960",
+          "rating": 3,
+          "url": "https://letterboxd.com/contra_/film/letter-never-sent/"
+        }
+      ],
+      "level": 1,
       "inRange": true,
       "url": "https://letterboxd.com/Contra_/diary/films/for/2026/10/12/"
     },
@@ -5118,9 +5125,30 @@
         }
       ],
       "url": "https://letterboxd.com/Contra_/diary/films/for/2026/09/28/"
+    },
+    {
+      "date": "2026-10-12",
+      "count": 1,
+      "ratingAvg": 3,
+      "films": [
+        {
+          "title": "Letter Never Sent",
+          "year": "1960",
+          "rating": 3,
+          "url": "https://letterboxd.com/contra_/film/letter-never-sent/"
+        }
+      ],
+      "url": "https://letterboxd.com/Contra_/diary/films/for/2026/10/12/"
     }
   ],
   "recent": [
+    {
+      "date": "2026-10-12",
+      "title": "Letter Never Sent",
+      "year": "1960",
+      "rating": 3,
+      "url": "https://letterboxd.com/contra_/film/letter-never-sent/"
+    },
     {
       "date": "2026-09-28",
       "title": "Ratcatcher",
@@ -5183,13 +5211,6 @@
       "year": "1992",
       "rating": 4.5,
       "url": "https://letterboxd.com/contra_/film/hard-boiled/"
-    },
-    {
-      "date": "2026-08-22",
-      "title": "The Golden Spurtle",
-      "year": "2025",
-      "rating": 3.5,
-      "url": "https://letterboxd.com/contra_/film/the-golden-spurtle/"
     }
   ]
 }
