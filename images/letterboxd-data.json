@@ -4,7 +4,7 @@
   "years": [
     2026
   ],
-  "generatedAt": "2026-10-19T06:04:30.945Z",
+  "generatedAt": "2026-10-19T12:57:41.942Z",
   "meta": {
     "weekStart": "sunday",
     "minYear": 2026,
@@ -16,8 +16,8 @@
     "maxCount": 1
   },
   "stats": {
-    "films": 48,
-    "daysActive": 48,
+    "films": 49,
+    "daysActive": 49,
     "streak": 4
   },
   "monthLabels": [
@@ -3634,10 +3634,17 @@
       "date": "2026-10-17",
       "week": 41,
       "weekday": 6,
-      "count": 0,
-      "ratingAvg": null,
-      "films": [],
-      "level": 0,
+      "count": 1,
+      "ratingAvg": 3.5,
+      "films": [
+        {
+          "title": "The History of Concrete",
+          "year": "2026",
+          "rating": 3.5,
+          "url": "https://letterboxd.com/contra_/film/the-history-of-concrete/"
+        }
+      ],
+      "level": 1,
       "inRange": true,
       "url": "https://letterboxd.com/Contra_/diary/films/for/2026/10/17/"
     },
@@ -5139,9 +5146,30 @@
         }
       ],
       "url": "https://letterboxd.com/Contra_/diary/films/for/2026/10/12/"
+    },
+    {
+      "date": "2026-10-17",
+      "count": 1,
+      "ratingAvg": 3.5,
+      "films": [
+        {
+          "title": "The History of Concrete",
+          "year": "2026",
+          "rating": 3.5,
+          "url": "https://letterboxd.com/contra_/film/the-history-of-concrete/"
+        }
+      ],
+      "url": "https://letterboxd.com/Contra_/diary/films/for/2026/10/17/"
     }
   ],
   "recent": [
+    {
+      "date": "2026-10-17",
+      "title": "The History of Concrete",
+      "year": "2026",
+      "rating": 3.5,
+      "url": "https://letterboxd.com/contra_/film/the-history-of-concrete/"
+    },
     {
       "date": "2026-10-12",
       "title": "Letter Never Sent",
@@ -5204,13 +5232,6 @@
       "year": "2026",
       "rating": 1.5,
       "url": "https://letterboxd.com/contra_/film/the-drama/"
-    },
-    {
-      "date": "2026-08-24",
-      "title": "Hard Boiled",
-      "year": "1992",
-      "rating": 4.5,
-      "url": "https://letterboxd.com/contra_/film/hard-boiled/"
     }
   ]
 }
