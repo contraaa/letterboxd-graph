@@ -4,7 +4,7 @@
   "years": [
     2026
   ],
-  "generatedAt": "2026-10-25T05:59:26.595Z",
+  "generatedAt": "2026-10-25T11:15:58.220Z",
   "meta": {
     "weekStart": "sunday",
     "minYear": 2026,
@@ -16,8 +16,8 @@
     "maxCount": 1
   },
   "stats": {
-    "films": 50,
-    "daysActive": 50,
+    "films": 52,
+    "daysActive": 52,
     "streak": 4
   },
   "monthLabels": [
@@ -3725,10 +3725,17 @@
       "date": "2026-10-24",
       "week": 42,
       "weekday": 6,
-      "count": 0,
-      "ratingAvg": null,
-      "films": [],
-      "level": 0,
+      "count": 1,
+      "ratingAvg": 3,
+      "films": [
+        {
+          "title": "Before Sunrise",
+          "year": "1995",
+          "rating": 3,
+          "url": "https://letterboxd.com/contra_/film/before-sunrise/"
+        }
+      ],
+      "level": 1,
       "inRange": true,
       "url": "https://letterboxd.com/Contra_/diary/films/for/2026/10/24/"
     },
@@ -3736,10 +3743,17 @@
       "date": "2026-10-25",
       "week": 43,
       "weekday": 0,
-      "count": 0,
-      "ratingAvg": null,
-      "films": [],
-      "level": 0,
+      "count": 1,
+      "ratingAvg": 2.5,
+      "films": [
+        {
+          "title": "The Texas Chain Saw Massacre",
+          "year": "1974",
+          "rating": 2.5,
+          "url": "https://letterboxd.com/contra_/film/the-texas-chain-saw-massacre/"
+        }
+      ],
+      "level": 1,
       "inRange": true,
       "url": "https://letterboxd.com/Contra_/diary/films/for/2026/10/25/"
     },
@@ -5181,9 +5195,51 @@
         }
       ],
       "url": "https://letterboxd.com/Contra_/diary/films/for/2026/10/20/"
+    },
+    {
+      "date": "2026-10-24",
+      "count": 1,
+      "ratingAvg": 3,
+      "films": [
+        {
+          "title": "Before Sunrise",
+          "year": "1995",
+          "rating": 3,
+          "url": "https://letterboxd.com/contra_/film/before-sunrise/"
+        }
+      ],
+      "url": "https://letterboxd.com/Contra_/diary/films/for/2026/10/24/"
+    },
+    {
+      "date": "2026-10-25",
+      "count": 1,
+      "ratingAvg": 2.5,
+      "films": [
+        {
+          "title": "The Texas Chain Saw Massacre",
+          "year": "1974",
+          "rating": 2.5,
+          "url": "https://letterboxd.com/contra_/film/the-texas-chain-saw-massacre/"
+        }
+      ],
+      "url": "https://letterboxd.com/Contra_/diary/films/for/2026/10/25/"
     }
   ],
   "recent": [
+    {
+      "date": "2026-10-25",
+      "title": "The Texas Chain Saw Massacre",
+      "year": "1974",
+      "rating": 2.5,
+      "url": "https://letterboxd.com/contra_/film/the-texas-chain-saw-massacre/"
+    },
+    {
+      "date": "2026-10-24",
+      "title": "Before Sunrise",
+      "year": "1995",
+      "rating": 3,
+      "url": "https://letterboxd.com/contra_/film/before-sunrise/"
+    },
     {
       "date": "2026-10-20",
       "title": "The Fast and the Furious",
@@ -5239,20 +5295,6 @@
       "year": "2026",
       "rating": 4,
       "url": "https://letterboxd.com/contra_/film/coyote-vs-acme/"
-    },
-    {
-      "date": "2026-09-10",
-      "title": "Goodbye Pork Pie",
-      "year": "1980",
-      "rating": 4,
-      "url": "https://letterboxd.com/contra_/film/goodbye-pork-pie/"
-    },
-    {
-      "date": "2026-09-07",
-      "title": "The Happiest Guy in the World",
-      "year": "2018",
-      "rating": 3,
-      "url": "https://letterboxd.com/contra_/film/the-happiest-guy-in-the-world/"
     }
   ]
 }
