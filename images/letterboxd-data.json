@@ -4,7 +4,7 @@
   "years": [
     2026
   ],
-  "generatedAt": "2026-10-28T18:50:04.044Z",
+  "generatedAt": "2026-10-28T23:09:21.924Z",
   "meta": {
     "weekStart": "sunday",
     "minYear": 2026,
@@ -16,8 +16,8 @@
     "maxCount": 1
   },
   "stats": {
-    "films": 53,
-    "daysActive": 53,
+    "films": 54,
+    "daysActive": 54,
     "streak": 4
   },
   "monthLabels": [
@@ -3790,10 +3790,17 @@
       "date": "2026-10-28",
       "week": 43,
       "weekday": 3,
-      "count": 0,
-      "ratingAvg": null,
-      "films": [],
-      "level": 0,
+      "count": 1,
+      "ratingAvg": 4,
+      "films": [
+        {
+          "title": "Primetime",
+          "year": "2026",
+          "rating": 4,
+          "url": "https://letterboxd.com/contra_/film/primetime-2026/"
+        }
+      ],
+      "level": 1,
       "inRange": true,
       "url": "https://letterboxd.com/Contra_/diary/films/for/2026/10/28/"
     },
@@ -5244,9 +5251,30 @@
         }
       ],
       "url": "https://letterboxd.com/Contra_/diary/films/for/2026/10/27/"
+    },
+    {
+      "date": "2026-10-28",
+      "count": 1,
+      "ratingAvg": 4,
+      "films": [
+        {
+          "title": "Primetime",
+          "year": "2026",
+          "rating": 4,
+          "url": "https://letterboxd.com/contra_/film/primetime-2026/"
+        }
+      ],
+      "url": "https://letterboxd.com/Contra_/diary/films/for/2026/10/28/"
     }
   ],
   "recent": [
+    {
+      "date": "2026-10-28",
+      "title": "Primetime",
+      "year": "2026",
+      "rating": 4,
+      "url": "https://letterboxd.com/contra_/film/primetime-2026/"
+    },
     {
       "date": "2026-10-27",
       "title": "Fargo",
@@ -5309,13 +5337,6 @@
       "year": "1997",
       "rating": 4,
       "url": "https://letterboxd.com/contra_/film/the-castle-1997/"
-    },
-    {
-      "date": "2026-09-17",
-      "title": "Bugonia",
-      "year": "2025",
-      "rating": 3.5,
-      "url": "https://letterboxd.com/contra_/film/bugonia/"
     }
   ]
 }
