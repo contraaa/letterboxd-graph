@@ -4,7 +4,7 @@
   "years": [
     2026
   ],
-  "generatedAt": "2026-11-04T21:17:13.018Z",
+  "generatedAt": "2026-11-05T02:18:03.117Z",
   "meta": {
     "weekStart": "sunday",
     "minYear": 2026,
@@ -3791,12 +3791,12 @@
       "week": 43,
       "weekday": 3,
       "count": 1,
-      "ratingAvg": 4,
+      "ratingAvg": 3.5,
       "films": [
         {
           "title": "Primetime",
           "year": "2026",
-          "rating": 4,
+          "rating": 3.5,
           "url": "https://letterboxd.com/contra_/film/primetime-2026/"
         }
       ],
@@ -5255,12 +5255,12 @@
     {
       "date": "2026-10-28",
       "count": 1,
-      "ratingAvg": 4,
+      "ratingAvg": 3.5,
       "films": [
         {
           "title": "Primetime",
           "year": "2026",
-          "rating": 4,
+          "rating": 3.5,
           "url": "https://letterboxd.com/contra_/film/primetime-2026/"
         }
       ],
@@ -5272,7 +5272,7 @@
       "date": "2026-10-28",
       "title": "Primetime",
       "year": "2026",
-      "rating": 4,
+      "rating": 3.5,
       "url": "https://letterboxd.com/contra_/film/primetime-2026/"
     },
     {
