@@ -4,7 +4,7 @@
   "years": [
     2026
   ],
-  "generatedAt": "2026-11-11T05:58:43.599Z",
+  "generatedAt": "2026-11-11T14:04:28.181Z",
   "meta": {
     "weekStart": "sunday",
     "minYear": 2026,
@@ -16,8 +16,8 @@
     "maxCount": 1
   },
   "stats": {
-    "films": 54,
-    "daysActive": 54,
+    "films": 55,
+    "daysActive": 55,
     "streak": 4
   },
   "monthLabels": [
@@ -3951,10 +3951,17 @@
       "date": "2026-11-11",
       "week": 45,
       "weekday": 3,
-      "count": 0,
-      "ratingAvg": null,
-      "films": [],
-      "level": 0,
+      "count": 1,
+      "ratingAvg": 5,
+      "films": [
+        {
+          "title": "You Can See Everything",
+          "year": "2026",
+          "rating": 5,
+          "url": "https://letterboxd.com/contra_/film/you-can-see-everything/"
+        }
+      ],
+      "level": 1,
       "inRange": true,
       "url": "https://letterboxd.com/Contra_/diary/films/for/2026/11/11/"
     },
@@ -5265,9 +5272,30 @@
         }
       ],
       "url": "https://letterboxd.com/Contra_/diary/films/for/2026/10/28/"
+    },
+    {
+      "date": "2026-11-11",
+      "count": 1,
+      "ratingAvg": 5,
+      "films": [
+        {
+          "title": "You Can See Everything",
+          "year": "2026",
+          "rating": 5,
+          "url": "https://letterboxd.com/contra_/film/you-can-see-everything/"
+        }
+      ],
+      "url": "https://letterboxd.com/Contra_/diary/films/for/2026/11/11/"
     }
   ],
   "recent": [
+    {
+      "date": "2026-11-11",
+      "title": "You Can See Everything",
+      "year": "2026",
+      "rating": 5,
+      "url": "https://letterboxd.com/contra_/film/you-can-see-everything/"
+    },
     {
       "date": "2026-10-28",
       "title": "Primetime",
@@ -5330,13 +5358,6 @@
       "year": "2020",
       "rating": 3.5,
       "url": "https://letterboxd.com/contra_/film/some-kind-of-heaven/"
-    },
-    {
-      "date": "2026-09-20",
-      "title": "The Castle",
-      "year": "1997",
-      "rating": 4,
-      "url": "https://letterboxd.com/contra_/film/the-castle-1997/"
     }
   ]
 }
