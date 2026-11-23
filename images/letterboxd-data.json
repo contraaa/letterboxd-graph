@@ -4,7 +4,7 @@
   "years": [
     2026
   ],
-  "generatedAt": "2026-11-23T08:56:56.361Z",
+  "generatedAt": "2026-11-23T21:13:51.505Z",
   "meta": {
     "weekStart": "sunday",
     "minYear": 2026,
@@ -16,8 +16,8 @@
     "maxCount": 1
   },
   "stats": {
-    "films": 56,
-    "daysActive": 56,
+    "films": 57,
+    "daysActive": 57,
     "streak": 4
   },
   "monthLabels": [
@@ -4097,10 +4097,17 @@
       "date": "2026-11-23",
       "week": 47,
       "weekday": 1,
-      "count": 0,
-      "ratingAvg": null,
-      "films": [],
-      "level": 0,
+      "count": 1,
+      "ratingAvg": 3.5,
+      "films": [
+        {
+          "title": "La Chimera",
+          "year": "2023",
+          "rating": 3.5,
+          "url": "https://letterboxd.com/contra_/film/la-chimera/"
+        }
+      ],
+      "level": 1,
       "inRange": true,
       "url": "https://letterboxd.com/Contra_/diary/films/for/2026/11/23/"
     },
@@ -5307,9 +5314,30 @@
         }
       ],
       "url": "https://letterboxd.com/Contra_/diary/films/for/2026/11/16/"
+    },
+    {
+      "date": "2026-11-23",
+      "count": 1,
+      "ratingAvg": 3.5,
+      "films": [
+        {
+          "title": "La Chimera",
+          "year": "2023",
+          "rating": 3.5,
+          "url": "https://letterboxd.com/contra_/film/la-chimera/"
+        }
+      ],
+      "url": "https://letterboxd.com/Contra_/diary/films/for/2026/11/23/"
     }
   ],
   "recent": [
+    {
+      "date": "2026-11-23",
+      "title": "La Chimera",
+      "year": "2023",
+      "rating": 3.5,
+      "url": "https://letterboxd.com/contra_/film/la-chimera/"
+    },
     {
       "date": "2026-11-16",
       "title": "Godland",
@@ -5372,13 +5400,6 @@
       "year": "1960",
       "rating": 3,
       "url": "https://letterboxd.com/contra_/film/letter-never-sent/"
-    },
-    {
-      "date": "2026-09-28",
-      "title": "Ratcatcher",
-      "year": "1999",
-      "rating": 4.5,
-      "url": "https://letterboxd.com/contra_/film/ratcatcher/"
     }
   ]
 }
